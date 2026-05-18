@@ -1,0 +1,3 @@
+defaults:
+  - orig_data: t1_attraction
+  - syn_data: oversample

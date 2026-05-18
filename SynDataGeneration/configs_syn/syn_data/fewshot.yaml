@@ -1,0 +1,9 @@
+gen_method_type: fewshot
+gen_params:
+  n_examples: 5
+  hf_llm_gen_args:
+    model_name_or_path: meta-llama/Llama-3.1-8B-Instruct
+    batch_size: 8
+    max_completion_tokens: 200
+    temperature: 0.5
+  seed: 123

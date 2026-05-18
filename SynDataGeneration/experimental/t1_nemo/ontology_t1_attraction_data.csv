@@ -1,0 +1,729 @@
+,city,state,attraction_name,type,latitude,longitude,neighborhood
+0,New York,NY,Metropolitan Museum of Art,Art,40.7794,-73.9631,Manhattan
+1,New York,NY,Times Square,Social,40.7575,-73.98583333,Manhattan
+2,New York,NY,9/11 Memorial & Museum,Historical,40.71166667,-74.01361111,Manhattan
+3,New York,NY,Rockefeller Center,Touristy,40.75861111,-73.97916667,Manhattan
+4,New York,NY,Museum of Modern Art,Art,40.76166667,-73.9775,Manhattan
+5,New York,NY,Grand Central Terminal,Touristy,40.75277778,-73.97722222,Manhattan
+6,New York,NY,New York Public Library,Cultural,40.75305556,-73.98194444,Manhattan
+7,New York,NY,One World Trade Center,Touristy,40.71305556,-74.01333333,Manhattan
+8,New York,NY,Coney Island,Social,40.575,-73.9825,Brooklyn
+9,New York,NY,Yankee Stadium,Sporting,40.82916667,-73.92638889,The Bronx
+10,New York,NY,Madison Square Garden,Sporting,40.75055556,-73.99361111,Manhattan
+11,New York,NY,Katz's Delicatessen,Culinary,40.722327,-73.987422,Manhattan
+12,New York,NY,Peter Luger Steak House,Culinary,40.7099,-73.9626,Manhattan
+13,Los Angeles,CA,Universal Studios Hollywood,Touristy,34.136518,-118.356051,Hollywood
+14,Los Angeles,CA,Griffith Observatory,Scenic,34.11833333,-118.30033333,Hollywood
+15,Los Angeles,CA,Santa Monica Pier,Social,34.00861111,-118.49861111,Venice
+16,Los Angeles,CA,Venice Beach,Scenic,33.99083333,-118.45916667,Venice
+17,Los Angeles,CA,Los Angeles County Museum of Art,Art,34.06333333,-118.35916667,Beverly Hills
+18,Los Angeles,CA,Dodger Stadium,Sporting,34.07361111,-118.24,Downtown LA
+19,Los Angeles,CA,Staples Center,Sporting,34.04305556,-118.26722222,Downtown LA
+20,Los Angeles,CA,Rodeo Drive,Social,34.06923056,-118.40298889,Beverly Hills
+21,Los Angeles,CA,Beverly Hills,Social,34.07305556,-118.39944444,Beverly Hills
+22,Los Angeles,CA,The Original Farmers Market,Culinary,34.0725,-118.36027778,Beverly Hills
+23,Los Angeles,CA,The Apple Pan,Culinary,34.04066667,-118.4278,Santa Monica
+24,Los Angeles,CA,Runyon Canyon Park,Scenic,34.11,-118.35,Hollywood
+25,Los Angeles,CA,California Science Center,Cultural,34.01555556,-118.28583333,Downtown LA
+26,Chicago,IL,Willis Tower,Touristy,41.8789,-87.6358,The Loop
+27,Chicago,IL,Millennium Park,Scenic,41.8825,-87.6225,The Loop
+28,Chicago,IL,Art Institute of Chicago,Art,41.87944444,-87.62388889,The Loop
+29,Chicago,IL,Navy Pier,Social,41.89138889,-87.59972222,The Loop
+30,Chicago,IL,The Magnificent Mile,Social,41.89535,-87.62432,The Loop
+31,Chicago,IL,Chicago Riverwalk,Scenic,41.8883,-87.6218,The Loop
+32,Chicago,IL,Field Museum,Cultural,41.86611111,-87.61694444,The Loop
+33,Chicago,IL,Adler Planetarium,Cultural,41.86638889,-87.60666667,The Loop
+34,Chicago,IL,Lincoln Park Zoo,Cultural,41.92138889,-87.63388889,Lincoln Park
+35,Chicago,IL,The Second City,Cultural,41.91151,-87.63506,Lincoln Park
+36,Chicago,IL,Lou Mitchell's,Culinary,41.87722222,-87.64166667,The Loop
+37,Chicago,IL,United Center,Sporting,41.88055556,-87.67416667,Bucktown
+38,Chicago,IL,Soldier Field,Sporting,41.8623,-87.6167,The Loop
+39,Houston,TX,Space Center Houston,Cultural,29.5518812,-95.0983429,Downtown Houston
+40,Houston,TX,Houston Museum of Natural Science,Cultural,29.7216,-95.3896,Montrose
+41,Houston,TX,The Galleria,Social,29.7407,-95.4636,Galleria
+42,Houston,TX,Houston Zoo,Cultural,29.71613167,-95.39056944,Montrose
+43,Houston,TX,Kemah Boardwalk,Social,29.54777778,-95.01722222,Downtown Houston
+44,Houston,TX,Houston Livestock Show and Rodeo,Cultural,29.68472222,-95.41083333,Montrose
+45,Houston,TX,Minute Maid Park,Sporting,29.75694444,-95.35555556,Downtown Houston
+46,Houston,TX,Toyota Center,Sporting,29.75083333,-95.36222222,Downtown Houston
+47,Houston,TX,The Menil Collection,Art,29.73722222,-95.39861111,Montrose
+48,Houston,TX,Children's Museum of Houston,Cultural,29.72269444,-95.38502778,Montrose
+49,Houston,TX,Houston Arboretum and Nature Center,Scenic,29.7652,-95.452,River Oaks
+50,Houston,TX,Buffalo Bayou Park,Scenic,29.7638,-95.0816,Downtown Houston
+51,Phoenix,AZ,Desert Botanical Garden,Scenic,33.46194444,-111.94472222,Camelback East
+52,Phoenix,AZ,Heard Museum,Cultural,33.47361111,-112.07361111,Roosevelt Row
+53,Phoenix,AZ,Phoenix Art Museum,Art,33.466749,-112.072655,Camelback East
+54,Phoenix,AZ,Chase Field,Sporting,33.44527778,-112.06694444,Roosevelt Row
+55,Phoenix,AZ,Talking Stick Resort Arena,Sporting,33.44583333,-112.07138889,Arcadia
+56,Phoenix,AZ,Camelback Mountain,Scenic,33.51472385,-111.96160421,Camelback East
+57,Phoenix,AZ,Rosson House Museum,Historical,33.4502,-112.066,Camelback East
+58,Phoenix,AZ,Hall of Flame Fire Museum,Cultural,33.447385,-111.95336,Roosevelt Row
+59,Phoenix,AZ,Castles N' Coasters,Social,33.5723,-112.1188,Glendale
+60,Phoenix,AZ,Enchanted Island Amusement Park,Social,33.474533,-112.0899603,Camelback East
+61,Phoenix,AZ,Pizzeria Bianco,Culinary,33.44921,-112.06564,Roosevelt Row
+62,Philadelphia,PA,Liberty Bell,Historical,39.94944444,-75.15027778,Society Hill
+63,Philadelphia,PA,Philadelphia Museum of Art,Art,39.96583333,-75.18138889,University City
+64,Philadelphia,PA,One Liberty Observation Deck,Scenic,39.9526,-75.1681,Center City
+65,Philadelphia,PA,Reading Terminal Market,Culinary,39.953395,-75.159008,University City
+66,Philadelphia,PA,Elfreth's Alley,Historical,39.9528,-75.1425,Society Hill
+67,Philadelphia,PA,Eastern State Penitentiary,Historical,39.96833333,-75.1725,University City
+68,Philadelphia,PA,Please Touch Museum,Cultural,39.9795,-75.2092,University City
+69,Philadelphia,PA,Pat's King of Steaks,Culinary,39.933175,-75.159238,Society Hill
+70,Philadelphia,PA,Geno's Steaks,Culinary,39.933702,-75.158898,Society Hill
+71,Philadelphia,PA,Citizens Bank Park,Sporting,39.90583333,-75.16638889,Society Hill
+72,Philadelphia,PA,Lincoln Financial Field,Sporting,39.90083333,-75.1675,Society Hill
+73,Philadelphia,PA,The Barnes Foundation,Art,39.9605,-75.1727,University City
+74,Philadelphia,PA,Boathouse Row,Scenic,39.969578,-75.187478,University City
+75,San Antonio,TX,The Alamo,Historical,29.42555556,-98.48611111,Alamo Heights
+76,San Antonio,TX,River Walk,Scenic,40.73333333,-73.97305556,Alamo Heights
+77,San Antonio,TX,San Antonio Missions National Historical Park,Historical,29.36166667,-98.48027778,Alamo Heights
+78,San Antonio,TX,Tower of the Americas,Scenic,29.418888,-98.483611,Alamo Heights
+79,San Antonio,TX,San Antonio Zoo and Aquarium,Cultural,29.4648,-98.4719,Alamo Heights
+80,San Antonio,TX,Natural Bridge Caverns,Scenic,29.69198889,-98.34285,Alamo Heights
+81,San Antonio,TX,Japanese Tea Gardens,Scenic,37.770122,-122.470231,King William
+82,San Antonio,TX,AT&T Center,Sporting,29.42694444,-98.4375,Alamo Heights
+83,San Antonio,TX,Alamodome,Sporting,29.41694444,-98.47888889,Alamo Heights
+84,San Antonio,TX,Henry B. González Convention Center,Social,29.42083333,-98.48472222,Alamo Heights
+85,San Diego,CA,Balboa Park,Cultural,32.73138889,-117.14527778,Little Italy
+86,San Diego,CA,USS Midway Museum,Historical,32.71445,-117.17315,Gaslamp Quarter
+87,San Diego,CA,Gaslamp Quarter,Social,32.71166667,-117.15916667,Gaslamp Quarter
+88,San Diego,CA,La Jolla Cove,Scenic,32.85055556,-117.27222222,La Jolla
+89,San Diego,CA,Belmont Park,Social,40.715,-73.72277778,North Park
+90,San Diego,CA,Petco Park,Sporting,32.7073,-117.1566,Gaslamp Quarter
+91,San Diego,CA,San Diego Harbor,Scenic,32.65,-117.19,Gaslamp Quarter
+92,San Diego,CA,Museum of Contemporary Art San Diego,Art,32.84444444,-117.27805556,La Jolla
+93,San Diego,CA,San Diego Museum of Man,Cultural,32.7317567,-117.1528655,Little Italy
+94,San Diego,CA,Torrey Pines State Natural Reserve,Scenic,32.921,-117.2532,La Jolla
+95,San Diego,CA,Cabrillo National Monument,Historical,32.67305556,-117.23861111,Gaslamp Quarter
+96,San Diego,CA,Old Town San Diego,Historical,32.757625,-117.19558611,Little Italy
+97,San Diego,CA,Lucha Libre Gourmet Taco Shop,Culinary,32.7433,-117.1816,Little Italy
+98,San Diego,CA,Qualcomm Stadium,Sporting,32.78305556,-117.11944444,North Park
+99,Dallas,TX,The Sixth Floor Museum at Dealey Plaza,Historical,32.77972222,-96.80833333,Uptown
+100,Dallas,TX,Dallas Arboretum and Botanical Garden,Scenic,32.82138889,-96.7175,Deep Ellum
+101,Dallas,TX,Perot Museum of Nature and Science,Cultural,32.78689,-96.80665,Uptown
+102,Dallas,TX,Dallas World Aquarium,Cultural,32.78345556,-96.80512778,Uptown
+103,Dallas,TX,Reunion Tower,Scenic,32.7753,-96.8089,Deep Ellum
+104,Dallas,TX,Dallas Museum of Art,Art,32.78805556,-96.80166667,Uptown
+105,Dallas,TX,Nasher Sculpture Center,Art,32.7882,-96.8002,Uptown
+106,Dallas,TX,Klyde Warren Park,Scenic,32.789486,-96.801589,Uptown
+107,Dallas,TX,Deep Ellum,Social,32.78444444,-96.78055556,Deep Ellum
+108,Dallas,TX,Galleria Dallas,Social,32.93,-96.81944444,Uptown
+109,Dallas,TX,Dallas Farmers Market,Culinary,32.77759,-96.789467,Deep Ellum
+110,Dallas,TX,Pecan Lodge,Culinary,32.78364,-96.78385,Deep Ellum
+111,Dallas,TX,American Airlines Center,Sporting,32.79055556,-96.81027778,Uptown
+112,Jacksonville,FL,Kingsley Plantation,Historical,30.43833333,-81.43805556,Downtown Jacksonville
+113,Jacksonville,FL,Riverside Park,Scenic,40.80416667,-73.97,Downtown Jacksonville
+114,Jacksonville,FL,Little Talbot Island State Park,Scenic,30.45194444,-81.41888889,Downtown Jacksonville
+115,Jacksonville,FL,Amelia Island,Scenic,30.61555556,-81.45388889,Downtown Jacksonville
+116,Jacksonville,FL,EverBank Stadium,Sporting,30.32388889,-81.6375,Downtown Jacksonville
+117,Jacksonville,FL,TIAA Bank Field,Sporting,30.32388889,-81.6375,Downtown Jacksonville
+118,Jacksonville,FL,The Florida Theatre,Cultural,30.32628,-81.65563,Downtown Jacksonville
+119,Jacksonville,FL,San Marco Square,Social,45.43388889,12.33805556,Downtown Jacksonville
+120,Jacksonville,FL,Timucuan Ecological and Historic Preserve,Historical,30.45445,-81.44988,Downtown Jacksonville
+121,Austin,TX,Zilker Park,Scenic,30.26361111,-97.77666667,Clarksville
+122,Austin,TX,South Congress Avenue,Cultural,30.25,-97.75,Clarksville
+123,Austin,TX,Franklin Barbecue,Culinary,30.270079,-97.731312,Downtown Austin
+124,Austin,TX,Lady Bird Lake,Scenic,30.25083333,-97.71361111,South Congress
+125,Austin,TX,Barton Springs Pool,Scenic,30.2639,-97.77,South Congress
+126,Austin,TX,LBJ Presidential Library,Historical,30.2857,-97.7292,Downtown Austin
+127,Austin,TX,Hope Outdoor Gallery,Art,30.26722222,-97.74305556,South Congress
+128,Fort Worth,TX,Fort Worth Stockyards National Historic District,Historical,32.79027778,-97.34611111,Tanglewood
+129,Fort Worth,TX,Sundance Square,Social,32.75888889,-97.32722222,Stockyards National Historic District
+130,Fort Worth,TX,Kimbell Art Museum,Art,32.74856889,-97.36492111,Near Southside
+131,Fort Worth,TX,Fort Worth Zoo,Touristy,32.7219,-97.3566,Stockyards National Historic District
+132,Fort Worth,TX,National Cowgirl Museum and Hall of Fame,Cultural,32.74333333,-97.36916667,Cultural District
+133,Fort Worth,TX,Bass Performance Hall,Cultural,32.75492,-97.33001,Stockyards National Historic District
+134,San Jose,CA,Rosicrucian Egyptian Museum,Cultural,37.3342,-121.9233,Santana Row
+135,San Jose,CA,San Jose Museum of Art,Art,37.333488,-121.890364,Downtown San Jose
+136,San Jose,CA,Santana Row,Social,37.32027778,-121.94777778,Santana Row
+137,San Jose,CA,The Tech Museum of Innovation,Touristy,37.3314374,-121.8907276,Downtown San Jose
+138,San Jose,CA,Avaya Stadium,Sporting,53.33527778,-6.22833333,Downtown San Jose
+139,San Jose,CA,Children's Discovery Museum of San Jose,Touristy,37.32668,-121.89177,Downtown San Jose
+140,San Jose,CA,Japanese American Museum of San Jose,Cultural,37.34754,-121.89347,Downtown San Jose
+141,San Jose,CA,San Jose Flea Market,Social,37.36922,-121.8789,Downtown San Jose
+142,San Jose,CA,Happy Hollow Park & Zoo,Touristy,37.32568056,-121.86205556,Downtown San Jose
+143,Columbus,OH,Columbus Zoo and Aquarium,Touristy,40.156266,-83.118403,Downtown Columbus
+144,Columbus,OH,Center of Science and Industry,Touristy,39.95968889,-83.00689194,Clintonville
+145,Columbus,OH,Franklin Park Conservatory and Botanical Gardens,Scenic,39.965859,-82.95289,Downtown Columbus
+146,Columbus,OH,Short North,Social,39.97972,-83.00471,Downtown Columbus
+147,Columbus,OH,Ohio Statehouse,Historical,39.96138889,-82.99888889,Victorian Village
+148,Columbus,OH,Columbus Museum of Art,Art,39.964315,-82.98789306,Downtown Columbus
+149,Columbus,OH,Goodale Park,Scenic,39.97519444,-83.00680556,Downtown Columbus
+150,Columbus,OH,Columbus Commons,Scenic,39.95854389,-82.99873389,German Village
+151,Columbus,OH,Nationwide Arena,Sporting,39.96928333,-83.00611111,Downtown Columbus
+152,Charlotte,NC,NASCAR Hall of Fame,Sporting,35.221599,-80.843277,Elizabeth
+153,Charlotte,NC,Carowinds,Touristy,35.10277778,-80.94166667,Myers Park
+154,Charlotte,NC,Freedom Park,Scenic,25.793145,-80.259003,Myers Park
+155,Charlotte,NC,NoDa Neighborhood,Social,35.246,-80.805,NoDa
+156,Charlotte,NC,Mint Museum,Art,35.1974,-80.8146,Myers Park
+157,Charlotte,NC,Bechtler Museum of Modern Art,Art,35.2244,-80.8473,Elizabeth
+158,Charlotte,NC,U.S. National Whitewater Center,Sporting,35.27233333,-81.00508333,NoDa
+159,Charlotte,NC,Levine Museum of the New South,Cultural,35.22444444,-80.84666667,NoDa
+160,Charlotte,NC,Bank of America Stadium,Sporting,35.22583333,-80.85277778,NoDa
+161,Indianapolis,IN,Indianapolis Motor Speedway,Sporting,39.79833333,-86.23277778,Downtown Indianapolis
+162,Indianapolis,IN,Indianapolis Cultural Trail,Cultural,39.77686111,-86.16094444,Mass Ave
+163,Indianapolis,IN,Children's Museum of Indianapolis,Touristy,39.81083333,-86.1575,Mass Ave
+164,Indianapolis,IN,Indianapolis Zoo,Touristy,39.76694444,-86.17694444,Downtown Indianapolis
+165,Indianapolis,IN,Eiteljorg Museum of American Indians and Western Art,Art,39.76830556,-86.16780556,Downtown Indianapolis
+166,Indianapolis,IN,White River State Park,Scenic,39.76666667,-86.16972222,Downtown Indianapolis
+167,Indianapolis,IN,Monument Circle,Historical,39.76833333,-86.15805556,Mass Ave
+168,Indianapolis,IN,Indianapolis Museum of Art,Art,39.8259,-86.1855,Mass Ave
+169,Indianapolis,IN,St. Elmo Steak House,Culinary,39.764817,-86.159645,Mass Ave
+170,Indianapolis,IN,Bankers Life Fieldhouse,Sporting,39.76388889,-86.15555556,Mass Ave
+171,Indianapolis,IN,Lucas Oil Stadium,Sporting,39.76005556,-86.16380556,Downtown Indianapolis
+172,Indianapolis,IN,Victory Field,Sporting,39.765,-86.16833333,Downtown Indianapolis
+173,Indianapolis,IN,Eagle Creek Park,Scenic,39.855556,-86.294167,Downtown Indianapolis
+174,San Francisco,CA,Alcatraz Island,Historical,37.82666667,-122.42277778,Fisherman's Wharf
+175,San Francisco,CA,Pier 39,Touristy,37.81,-122.4104,Fisherman's Wharf
+176,San Francisco,CA,de Young Museum,Art,37.77146889,-122.46867611,Haight-Ashbury
+177,San Francisco,CA,San Francisco Museum of Modern Art,Art,37.7858,-122.401,Chinatown
+178,San Francisco,CA,AT&T Park,Sporting,37.77861111,-122.38916667,Chinatown
+179,San Francisco,CA,Haight-Ashbury,Cultural,37.77,-122.4469,Haight-Ashbury
+180,San Francisco,CA,The Painted Ladies,Scenic,37.77638889,-122.43305556,Haight-Ashbury
+181,San Francisco,CA,The Ferry Building Marketplace,Culinary,37.7955,-122.3937,Chinatown
+182,San Francisco,CA,Ghirardelli Square,Culinary,37.8059,-122.423,Fisherman's Wharf
+183,San Francisco,CA,The Exploratorium,Touristy,37.8014,-122.3976,Chinatown
+184,San Francisco,CA,The Walt Disney Family Museum,Touristy,37.801095,-122.458487,Pacific Heights
+185,Seattle,WA,Pike Place Market,Culinary,47.60944444,-122.34166667,Pioneer Square
+186,Seattle,WA,Seattle Waterfront,Scenic,47.60638889,-122.33972222,Pioneer Square
+187,Seattle,WA,Chihuly Garden and Glass,Art,47.62062,-122.35007,Queen Anne
+188,Seattle,WA,Seattle Art Museum,Art,47.60722222,-122.33805556,Pioneer Square
+189,Seattle,WA,Seattle Great Wheel,Touristy,47.6061,-122.3425,Pioneer Square
+190,Seattle,WA,Kerry Park,Scenic,47.62944444,-122.36,Queen Anne
+191,Seattle,WA,Seattle Aquarium,Touristy,47.6075,-122.34305556,Pioneer Square
+192,Seattle,WA,Woodland Park Zoo,Touristy,47.66834,-122.34984,Fremont
+193,Seattle,WA,Seattle Center,Cultural,47.6225,-122.3525,Queen Anne
+194,Seattle,WA,The Gum Wall,Social,47.60833333,-122.34027778,Pioneer Square
+195,Seattle,WA,The Original Starbucks,Culinary,47.6099,-122.34244,Pioneer Square
+196,Seattle,WA,CenturyLink Field,Sporting,47.5952,-122.3316,Pioneer Square
+197,Seattle,WA,Seattle Central Library,Cultural,47.606699,-122.332503,Pioneer Square
+198,Denver,CO,Denver Art Museum,Art,39.73718806,-104.989345,LoDo
+199,Denver,CO,History Colorado Center,Historical,39.736099,-104.986956,LoDo
+200,Denver,CO,Denver Zoo,Touristy,39.75,-104.95,LoDo
+201,Denver,CO,Denver Museum of Nature & Science,Touristy,39.7475,-104.9425,LoDo
+202,Denver,CO,Red Rocks Park and Amphitheatre,Scenic,39.66527778,-105.20583333,Cherry Creek
+203,Denver,CO,Mount Evans,Scenic,39.5883,-105.6438,Highland
+204,Denver,CO,Coors Field,Sporting,39.75611111,-104.99416667,Cherry Creek
+205,Denver,CO,Sports Authority Field at Mile High,Sporting,39.74388889,-105.02,Cherry Creek
+206,Denver,CO,Pepsi Center,Sporting,39.74861111,-105.0075,Cherry Creek
+207,Denver,CO,Confluence Park,Scenic,39.752997,-105.011766,Cherry Creek
+208,Denver,CO,Denver Botanic Gardens,Scenic,39.7325,-104.96083333,Capitol Hill
+209,Denver,CO,The Denver Central Market,Culinary,39.7392,-104.9849,LoDo
+210,Oklahoma City,OK,National Cowboy & Western Heritage Museum,Art,35.53555556,-97.48305556,Bricktown
+211,Oklahoma City,OK,Oklahoma City National Memorial & Museum,Historical,35.47277778,-97.51722222,Midtown
+212,Oklahoma City,OK,Myriad Botanical Gardens,Scenic,35.4652,-97.5179,Midtown
+213,Oklahoma City,OK,Oklahoma City Zoo and Botanical Garden,Touristy,35.5212,-97.4724,Bricktown
+214,Oklahoma City,OK,Science Museum Oklahoma,Touristy,35.5236,-97.4751,Bricktown
+215,Oklahoma City,OK,Chesapeake Energy Arena,Sporting,35.46333333,-97.515,Bricktown
+216,Oklahoma City,OK,Oklahoma City Museum of Art,Art,35.46972222,-97.52055556,Midtown
+217,Oklahoma City,OK,The Plaza District,Social,32.77861111,-96.80861111,Bricktown
+218,Oklahoma City,OK,The Paseo Arts District,Art,35.49944444,-97.5225,Automobile Alley
+219,Oklahoma City,OK,Martin Park Nature Center,Scenic,40.7746,-96.7768,Plaza District
+220,Oklahoma City,OK,Lake Hefner,Scenic,35.56782,-97.59574,Midtown
+221,Oklahoma City,OK,Oklahoma History Center,Historical,35.494,-97.4999,Bricktown
+222,Oklahoma City,OK,Cattlemen's Steakhouse,Culinary,35.4523839,-97.5548525,Automobile Alley
+223,Nashville,TN,Country Music Hall of Fame and Museum,Cultural,36.15833333,-86.77611111,Downtown Nashville
+224,Nashville,TN,The Bluebird Cafe,Culinary,36.10202778,-86.81683333,East Nashville
+225,Nashville,TN,Ryman Auditorium,Art,36.16127778,-86.7785,12 South
+226,Nashville,TN,Belle Meade Plantation,Historical,36.10555556,-86.865,East Nashville
+227,Nashville,TN,Edwin Warner Park,Scenic,36.06305556,-86.89166667,East Nashville
+228,Nashville,TN,Nashville Zoo at Grassmere,Touristy,36.08919444,-86.74372222,Germantown
+229,Nashville,TN,Cheekwood Estate and Gardens,Art,36.08666667,-86.87388889,East Nashville
+230,Nashville,TN,Johnny Cash Museum,Cultural,36.16111111,-86.77583333,Germantown
+231,Nashville,TN,Tennessee State Capitol,Historical,36.16583333,-86.78416667,The Gulch
+232,Nashville,TN,Nissan Stadium,Sporting,36.16638889,-86.77138889,Downtown Nashville
+233,Nashville,TN,Tootsie's Orchid Lounge,Culinary,36.1608,-86.77823,Downtown Nashville
+234,Nashville,TN,Nashville Public Library,Cultural,36.1621,-86.7817,The Gulch
+235,Nashville,TN,Bicentennial Capitol Mall State Park,Scenic,36.1707,-86.7875,Germantown
+236,Washington,DC,Lincoln Memorial,Historical,38.88927778,-77.05013889,Dupont Circle
+237,Washington,DC,Smithsonian National Air and Space Museum,Cultural,38.88833333,-77.02,Capitol Hill
+238,Washington,DC,National Gallery of Art,Art,38.89138889,-77.02,Capitol Hill
+239,Washington,DC,World War II Memorial,Historical,38.88944444,-77.04055556,Dupont Circle
+240,Washington,DC,Vietnam Veterans Memorial,Historical,38.89111111,-77.04777778,Dupont Circle
+241,Washington,DC,Korean War Veterans Memorial,Historical,38.88777778,-77.04722222,Dupont Circle
+242,Washington,DC,National Museum of Natural History,Cultural,38.8913,-77.0259,Capitol Hill
+243,Washington,DC,Georgetown Waterfront,Scenic,38.902155,-77.061893,Georgetown
+244,Washington,DC,Kennedy Center,Art,38.8957,-77.0559,Georgetown
+245,Washington,DC,Arlington National Cemetery,Historical,38.87916667,-77.07222222,Georgetown
+246,Washington,DC,National Museum of American History,Cultural,38.89111111,-77.03,Capitol Hill
+247,Washington,DC,United States Botanic Garden,Scenic,38.888,-77.013,Capitol Hill
+248,Washington,DC,Tidal Basin,Scenic,38.88416667,-77.03916667,Capitol Hill
+249,Washington,DC,National Museum of Women in the Arts,Art,38.90005111,-77.029315,Dupont Circle
+250,El Paso,TX,Hueco Tanks State Park & Historic Site,Scenic,31.92027778,-106.03861111,El Paso Mission Trail
+251,El Paso,TX,El Paso Mission Trail,Historical,31.69083333,-106.32722222,Downtown El Paso
+252,El Paso,TX,Fort Bliss,Historical,31.801847,-106.424608,El Paso Mission Trail
+253,El Paso,TX,El Paso Zoo,Touristy,31.7684,-106.4429,Westside
+254,El Paso,TX,Wyler Aerial Tramway,Scenic,31.80888889,-106.47805556,El Paso Mission Trail
+255,El Paso,TX,Franklin Mountains State Park,Scenic,31.88361111,-106.50222222,El Paso Mission Trail
+256,El Paso,TX,El Paso Museum of Art,Art,31.7586,-106.4903,Kern Place
+257,El Paso,TX,Chamizal National Memorial,Historical,31.76777778,-106.45416667,Westside
+258,El Paso,TX,Sun Bowl Stadium,Sporting,31.773,-106.508,El Paso Mission Trail
+259,El Paso,TX,Magoffin Home State Historic Site,Historical,31.7625,-106.47694444,Mesilla Valley
+260,El Paso,TX,Western Playland Amusement Park,Touristy,37.77333333,-122.51194444,El Paso Mission Trail
+261,El Paso,TX,El Paso Downtown Artist and Farmers Market,Social,31.75916667,-106.48861111,Kern Place
+262,El Paso,TX,Cohen Stadium,Sporting,31.891195,-106.438272,El Paso Mission Trail
+263,El Paso,TX,El Paso Museum of History,Cultural,31.759998,-106.491637,Westside
+264,El Paso,TX,Sunland Park Mall,Social,31.816907,-106.54642,El Paso Mission Trail
+265,Las Vegas,NV,Fountains of Bellagio,Scenic,36.112904,-115.173866,Summerlin
+266,Las Vegas,NV,High Roller Observation Wheel,Touristy,36.117698,-115.16815,Summerlin
+267,Las Vegas,NV,Red Rock Canyon National Conservation Area,Scenic,36.135574,-115.42724,Summerlin
+268,Las Vegas,NV,The Mob Museum,Cultural,36.172823,-115.141252,Summerlin
+269,Las Vegas,NV,Fremont Street Experience,Social,36.17083333,-115.14416667,Summerlin
+270,Las Vegas,NV,The LINQ Promenade,Social,36.1175,-115.17277778,Summerlin
+271,Las Vegas,NV,Mandalay Bay Beach,Scenic,36.09166667,-115.17472222,Summerlin
+272,Las Vegas,NV,Shark Reef Aquarium at Mandalay Bay,Touristy,36.0903327,-115.1765442,Summerlin
+273,Las Vegas,NV,The Mirage Volcano,Scenic,36.12111111,-115.17527778,Summerlin
+274,Las Vegas,NV,Adventuredome at Circus Circus,Touristy,36.13694444,-115.16333333,Summerlin
+275,Las Vegas,NV,Las Vegas Springs Preserve,Scenic,36.17277778,-115.18944444,Summerlin
+276,Las Vegas,NV,T-Mobile Arena,Sporting,36.10277778,-115.17833333,Summerlin
+277,Las Vegas,NV,Sam Boyd Stadium,Sporting,36.086,-115.017,Summerlin
+278,Boston,MA,Faneuil Hall Marketplace,Social,42.36,-71.05625,North End
+279,Boston,MA,Quincy Market,Culinary,42.36,-71.055,North End
+280,Boston,MA,Boston Common,Scenic,42.355,-71.06555556,Beacon Hill
+281,Boston,MA,Museum of Fine Arts,Art,42.33944444,-71.09416667,Fenway-Kenmore
+282,Boston,MA,New England Aquarium,Touristy,42.35916667,-71.04944444,North End
+283,Boston,MA,Fenway Park,Sporting,42.34625,-71.09775,Fenway-Kenmore
+284,Boston,MA,Boston Public Garden,Scenic,42.35416667,-71.07,Beacon Hill
+285,Boston,MA,USS Constitution Museum,Historical,42.37388889,-71.05527778,Charlestown
+286,Boston,MA,Bunker Hill Monument,Historical,42.37636111,-71.06077778,Charlestown
+287,Boston,MA,Museum of Science,Cultural,42.3675,-71.07111111,Charlestown
+288,Boston,MA,Harvard University,Cultural,42.37444444,-71.11694444,Fenway-Kenmore
+289,Boston,MA,Cambridge Common,Scenic,42.37651,-71.12049,Fenway-Kenmore
+290,Boston,MA,Boston Harbor Islands,Scenic,42.31861111,-70.94583333,North End
+291,Boston,MA,Boston Tea Party Ships & Museum,Historical,42.3536,-71.0524,Beacon Hill
+292,Detroit,MI,Belle Isle Park,Scenic,42.34027778,-82.98666667,Rivertown
+293,Detroit,MI,Motown Museum,Cultural,42.36416667,-83.08833333,Midtown Detroit
+294,Detroit,MI,Comerica Park,Sporting,42.33916667,-83.04861111,Downtown Detroit
+295,Detroit,MI,Detroit Institute of Arts,Art,42.35942,-83.06457611,Midtown Detroit
+296,Detroit,MI,Charles H. Wright Museum of African American History,Cultural,42.35900833,-83.06096111,Midtown Detroit
+297,Detroit,MI,Renaissance Center,Touristy,42.3289,-83.0397,Downtown Detroit
+298,Detroit,MI,Detroit RiverWalk,Scenic,42.3275,-83.04361111,Rivertown
+299,Portland,OR,Pittock Mansion,Historical,45.525,-122.71638889,Pearl District
+300,Portland,OR,Portland Japanese Garden,Scenic,45.51872,-122.708,Downtown Portland
+301,Portland,OR,Powell's City of Books,Cultural,45.52334444,-122.68158611,Downtown Portland
+302,Portland,OR,Portland Art Museum,Art,45.5162,-122.6835,Downtown Portland
+303,Portland,OR,Pioneer Courthouse Square,Social,45.51887,-122.6793,Downtown Portland
+304,Portland,OR,Oregon Museum of Science and Industry,Guided,45.50833333,-122.66555556,Downtown Portland
+305,Portland,OR,Lan Su Chinese Garden,Cultural,45.52565,-122.67299,Pearl District
+306,Louisville,KY,Louisville Mega Cavern,Guided,38.201585,-85.704127,Old Louisville
+307,Louisville,KY,Muhammad Ali Center,Cultural,38.25816667,-85.76005556,Highlands
+308,Louisville,KY,Louisville Slugger Museum & Factory,Historical,38.25713889,-85.76358333,Highlands
+309,Louisville,KY,Frazier History Museum,Historical,38.257727,-85.764519,Downtown Louisville
+310,Louisville,KY,Louisville Nature Center,Scenic,38.2095,-85.7111,Old Louisville
+311,Louisville,KY,Speed Art Museum,Art,38.21786111,-85.76091667,Old Louisville
+312,Memphis,TN,National Civil Rights Museum,Historical,35.1345,-90.0576,Downtown Memphis
+313,Memphis,TN,Sun Studio,Cultural,35.13924722,-90.03767778,Downtown Memphis
+314,Memphis,TN,Memphis Zoo,Scenic,35.15,-89.9943,Midtown Memphis
+315,Memphis,TN,Stax Museum of American Soul Music,Cultural,35.115976,-90.031456,Downtown Memphis
+316,Memphis,TN,Overton Park,Scenic,35.14638889,-89.98916667,Midtown Memphis
+317,Memphis,TN,FedExForum,Sporting,35.13833333,-90.05055556,Downtown Memphis
+318,Baltimore,MD,Inner Harbor,Touristy,39.283494,-76.609897,Inner Harbor
+319,Baltimore,MD,Fort McHenry,Historical,39.2633,-76.5799,Fell's Point
+320,Baltimore,MD,National Aquarium,Scenic,39.284398,-76.606936,Inner Harbor
+321,Baltimore,MD,Baltimore Museum of Art,Art,39.32611111,-76.61916667,Mount Vernon
+322,Baltimore,MD,Oriole Park at Camden Yards,Sporting,39.28388889,-76.62166667,Canton
+323,Baltimore,MD,Fell's Point,Social,39.28305556,-76.59277778,Fell's Point
+324,Baltimore,MD,American Visionary Art Museum,Art,39.28027778,-76.60694444,Federal Hill
+325,Baltimore,MD,Baltimore and Ohio Railroad Museum,Historical,39.28539444,-76.63239722,Canton
+326,Baltimore,MD,Lexington Market,Culinary,39.29189,-76.62175,Canton
+327,Baltimore,MD,Druid Hill Park,Scenic,39.32305556,-76.64472222,Mount Vernon
+328,Milwaukee,WI,Milwaukee Art Museum,Art,43.04,-87.89694444,Wauwatosa
+329,Milwaukee,WI,Lakefront Brewery,Culinary,43.054683,-87.905105,Shorewood
+330,Milwaukee,WI,Miller Park,Sporting,43.02833333,-87.97111111,Downtown Milwaukee
+331,Milwaukee,WI,Harley-Davidson Museum,Cultural,43.04611111,-87.96,Riverwest
+332,Milwaukee,WI,Pabst Mansion,Historical,43.03926944,-87.93798333,Riverwest
+333,Milwaukee,WI,Mitchell Park Horticultural Conservatory,Scenic,43.026432,-87.945963,Wauwatosa
+334,Milwaukee,WI,Milwaukee RiverWalk,Scenic,43.04045278,-87.91113889,Riverwest
+335,Milwaukee,WI,Potawatomi Hotel & Casino,Social,43.030418,-87.934822,Shorewood
+336,Albuquerque,NM,Sandia Peak Tramway,Scenic,35.19055556,-106.47944444,Nob Hill
+337,Albuquerque,NM,Albuquerque BioPark,Touristy,35.0781,-106.6632,Uptown
+338,Albuquerque,NM,Old Town Albuquerque,Historical,35.09611111,-106.66986111,Old Town
+339,Albuquerque,NM,Indian Pueblo Cultural Center,Cultural,35.1105,-106.6588,Old Town
+340,Albuquerque,NM,Petroglyph National Monument,Historical,35.13583333,-106.76194444,Old Town
+341,Albuquerque,NM,ABQ BioPark Zoo,Touristy,35.0776,-106.6627,University Heights
+342,Albuquerque,NM,Albuquerque Museum,Art,35.0975,-106.66777778,Old Town
+343,Albuquerque,NM,Isotopes Park,Sporting,35.06972222,-106.62916667,Nob Hill
+344,Tucson,AZ,Saguaro National Park,Scenic,32.17916667,-110.73694444,4th Avenue
+345,Tucson,AZ,Arizona-Sonora Desert Museum,Touristy,32.24388889,-111.16805556,El Presidio San Agustín del Tucson
+346,Tucson,AZ,Tucson Mountain Park,Scenic,32.225,-111.11666667,Downtown Tucson
+347,Tucson,AZ,Mission San Xavier del Bac,Historical,32.107,-111.008,Downtown Tucson
+348,Tucson,AZ,Reid Park Zoo,Touristy,32.208,-110.92,El Presidio San Agustín del Tucson
+349,Tucson,AZ,Pima Air & Space Museum,Touristy,32.13894444,-110.86869444,Sam Hughes
+350,Tucson,AZ,University of Arizona Campus,Cultural,33.4172,-111.9365,El Presidio San Agustín del Tucson
+351,Tucson,AZ,El Presidio San Agustín del Tucson,Historical,32.22166667,-110.92638889,Downtown Tucson
+352,Fresno,CA,Forestiere Underground Gardens,Historical,36.80722222,-119.88083333,Figarden
+353,Fresno,CA,Fresno Chaffee Zoo,Touristy,36.7522,-119.8215,Downtown Fresno
+354,Fresno,CA,Tower District,Social,36.75,-119.76666667,Downtown Fresno
+355,Fresno,CA,Fresno Art Museum,Art,36.7708,-119.7739,Woodward Park
+356,Fresno,CA,Fresno Convention Center,Social,36.73365,-119.78347,Woodward Park
+357,Fresno,CA,Meux Home Museum,Historical,36.739746,-119.782391,Downtown Fresno
+358,Fresno,CA,Fresno State University Campus,Cultural,36.81333333,-119.75,Woodward Park
+359,Fresno,CA,Save Mart Center,Sporting,36.809722,-119.738611,Downtown Fresno
+360,Sacramento,CA,Old Sacramento,Historical,38.58277778,-121.50333333,Downtown Sacramento
+361,Sacramento,CA,California State Railroad Museum,Touristy,38.58472222,-121.50444444,Downtown Sacramento
+362,Sacramento,CA,Sacramento Zoo,Touristy,38.539605,-121.504026,Downtown Sacramento
+363,Sacramento,CA,Golden 1 Center,Sporting,38.58036111,-121.49961111,Downtown Sacramento
+364,Sacramento,CA,Crocker Art Museum,Art,38.57694444,-121.505,Downtown Sacramento
+365,Sacramento,CA,State Capitol and Capitol Park,Historical,47.03583333,-122.90472222,Downtown Sacramento
+366,Sacramento,CA,Sutter's Fort,Historical,38.57247222,-121.47122222,East Sacramento
+367,Sacramento,CA,Raley Field,Sporting,38.58037222,-121.5138,Downtown Sacramento
+368,Sacramento,CA,The Delta King,Social,38.58277778,-121.50694444,Downtown Sacramento
+369,Sacramento,CA,Sacramento River Delta,Scenic,38.067975,-121.8427354,Old Sacramento
+370,Mesa,AZ,Mesa Grande Cultural Park,Historical,33.43415,-111.845271,Downtown Mesa
+371,Mesa,AZ,Mesa Arts Center,Art,33.414,-111.8305,Mesa Grande
+372,Mesa,AZ,Organ Stop Pizza,Culinary,33.3928,-111.8078,Red Mountain Ranch
+373,Mesa,AZ,Mesa Riverview,Social,33.43541111,-111.86538056,Downtown Mesa
+374,Mesa,AZ,Mesa Historical Museum,Historical,33.4585,-111.8132,Red Mountain Ranch
+375,Mesa,AZ,Red Mountain Park,Scenic,33.4454,-86.8622,Mesa Grande
+376,Mesa,AZ,Dobson Ranch Golf Course,Sporting,33.374,-111.872,Downtown Mesa
+377,Atlanta,GA,Georgia Aquarium,Touristy,33.76277778,-84.39472222,Virginia-Highland
+378,Atlanta,GA,Martin Luther King Jr. National Historical Park,Historical,33.755,-84.37222222,Inman Park
+379,Atlanta,GA,Piedmont Park,Scenic,33.78611111,-84.37333333,Midtown Atlanta
+380,Atlanta,GA,Centennial Olympic Park,Social,33.760042,-84.393229,Virginia-Highland
+381,Atlanta,GA,High Museum of Art,Art,33.790047,-84.385566,Midtown Atlanta
+382,Atlanta,GA,Zoo Atlanta,Touristy,33.7325,-84.36972222,Virginia-Highland
+383,Atlanta,GA,Stone Mountain Park,Scenic,33.80594444,-84.14542222,Midtown Atlanta
+384,Atlanta,GA,SkyView Atlanta,Touristy,33.760042,-84.393229,Virginia-Highland
+385,Atlanta,GA,Mercedes-Benz Stadium,Sporting,33.75555556,-84.4,Inman Park
+386,Kansas City,MO,National World War I Museum and Memorial,Historical,39.08027778,-94.58611111,Crossroads Arts District
+387,Kansas City,MO,Kansas City Zoo,Touristy,39.00694444,-94.52916667,Westport
+388,Kansas City,MO,Country Club Plaza,Social,39.041323,-94.591813,Westport
+389,Kansas City,MO,Arrowhead Stadium,Sporting,39.04888889,-94.48388889,Westport
+390,Kansas City,MO,Kauffman Stadium,Sporting,39.05138889,-94.48055556,Westport
+391,Kansas City,MO,National Museum of Toys and Miniatures,Cultural,39.0308,-94.5822,Westport
+392,Kansas City,MO,Crown Center,Social,39.080995,-94.581442,Crossroads Arts District
+393,Colorado Springs,CO,Garden of the Gods,Scenic,38.867769,-104.8910877,Manitou Springs
+394,Colorado Springs,CO,United States Air Force Academy,Historical,38.9985,-104.8541,Manitou Springs
+395,Colorado Springs,CO,Manitou Cliff Dwellings,Historical,38.8634,-104.9124,Manitou Springs
+396,Colorado Springs,CO,Colorado Springs Fine Arts Center,Art,38.84583333,-104.82555556,Peregrine
+397,Colorado Springs,CO,Seven Falls,Scenic,38.77888889,-104.88,Briargate
+398,Colorado Springs,CO,Cheyenne Mountain Zoo,Touristy,38.77,-104.855,Briargate
+399,Colorado Springs,CO,Old Colorado City,Social,38.8467,-104.8619,Old Colorado City
+400,Colorado Springs,CO,Red Rock Canyon Open Space,Scenic,38.85277778,-104.87972222,Manitou Springs
+401,Omaha,NE,Henry Doorly Zoo and Aquarium,Touristy,41.224703,-95.928701,Old Market
+402,Omaha,NE,Lauritzen Gardens,Scenic,41.234397,-95.916116,Old Market
+403,Omaha,NE,Bob Kerrey Pedestrian Bridge,Scenic,41.265634,-95.92231,Old Market
+404,Omaha,NE,Fontenelle Forest Nature Center,Scenic,41.18,-95.91777778,Old Market
+405,Raleigh,NC,North Carolina State Capitol,Historical,35.78036111,-78.63911111,Glenwood-Brooklyn
+406,Raleigh,NC,North Carolina Museum of Natural Sciences,Cultural,35.7821858,-78.6394221,Glenwood-Brooklyn
+407,Raleigh,NC,JC Raulston Arboretum,Scenic,35.7945,-78.6991,Boylan Heights
+408,Raleigh,NC,Contemporary Art Museum,Art,41.8972,-87.6212,Cameron Village
+409,Raleigh,NC,Raleigh Union Station,Social,35.7772,-78.6472,Downtown Raleigh
+410,Raleigh,NC,Glenwood South,Social,35.78492603,-78.64732996,Glenwood-Brooklyn
+411,Raleigh,NC,North Carolina Museum of Art,Art,35.81019444,-78.70288889,Boylan Heights
+412,Raleigh,NC,PNC Arena,Sporting,35.80333333,-78.72194444,Boylan Heights
+413,Miami,FL,South Beach,Scenic,25.781875,-80.136262,Wynwood
+414,Miami,FL,Wynwood Walls,Art,25.804,-80.199,Wynwood
+415,Miami,FL,Vizcaya Museum and Gardens,Historical,25.74361111,-80.21027778,Little Havana
+416,Miami,FL,Everglades National Park,Scenic,25.3125,-80.6875,Coconut Grove
+417,Miami,FL,Little Havana,Cultural,25.77257778,-80.21458889,Little Havana
+418,Miami,FL,Miami Beach Boardwalk,Scenic,25.7919,-80.1294,Wynwood
+419,Miami,FL,Joe's Stone Crab,Culinary,25.76916667,-80.135,Wynwood
+420,Miami,FL,American Airlines Arena,Sporting,25.78138889,-80.18805556,Wynwood
+421,Virginia Beach,VA,Virginia Beach Boardwalk,Scenic,36.8425,-75.9725,Shore Drive
+422,Virginia Beach,VA,First Landing State Park,Scenic,36.90611111,-76.01527778,Oceanfront
+423,Virginia Beach,VA,Cape Henry Lighthouse,Historical,36.92555556,-76.00833333,Shore Drive
+424,Virginia Beach,VA,Virginia Aquarium & Marine Science Center,Cultural,36.82105,-75.98377,Pembroke
+425,Virginia Beach,VA,Mount Trashmore Park,Scenic,36.831,-76.1232,Pembroke
+426,Virginia Beach,VA,Lynnhaven Mall,Social,36.81638889,-76.07111111,Pembroke
+427,Long Beach,CA,Long Beach Aquarium of the Pacific,Cultural,33.76216,-118.19692,Peninsula
+428,Long Beach,CA,Shoreline Village,Social,47.75638889,-122.34527778,Bixby Knolls
+429,Long Beach,CA,Long Beach Museum of Art,Art,33.7635,-118.1648,Belmont Shore
+430,Long Beach,CA,Naples Canals,Scenic,33.75388889,-118.12222222,Belmont Shore
+431,Long Beach,CA,Long Beach Harbor,Scenic,33.755,-118.215,Peninsula
+432,Long Beach,CA,Pike Outlets,Social,33.76611111,-118.18916667,Naples
+433,Long Beach,CA,Long Beach Arena,Sporting,33.76388889,-118.18833333,Peninsula
+434,Oakland,CA,Lake Merritt,Scenic,37.8039,-122.2591,Adams Point
+435,Oakland,CA,Jack London Square,Social,37.7942,-122.2747,Jack London Square
+436,Oakland,CA,Oakland Museum of California,Cultural,37.7986,-122.2636,Jack London Square
+437,Oakland,CA,Redwood Regional Park,Scenic,37.81355556,-122.16591667,Adams Point
+438,Oakland,CA,Children's Fairyland,Cultural,37.809,-122.2599,Adams Point
+439,Oakland,CA,Oakland Zoo,Cultural,37.7508,-122.1477,Adams Point
+440,Oakland,CA,Oracle Arena,Sporting,37.75027778,-122.20305556,Jack London Square
+441,Minneapolis,MN,Minnehaha Falls,Scenic,44.915,-93.21,Downtown Minneapolis
+442,Minneapolis,MN,Walker Art Center,Art,44.96805556,-93.28861111,Lyn-Lake
+443,Minneapolis,MN,Minneapolis Sculpture Garden,Art,44.97027778,-93.28888889,Lyn-Lake
+444,Minneapolis,MN,Target Field,Sporting,44.98166667,-93.27833333,Lyn-Lake
+445,Minneapolis,MN,Theodore Wirth Park,Scenic,44.99,-93.323,Lyn-Lake
+446,Minneapolis,MN,Weisman Art Museum,Art,44.97277778,-93.23805556,Dinkytown
+447,Minneapolis,MN,Mill District,Social,44.978333,-93.256389,Nordeast
+448,Bakersfield,CA,Buck Owens' Crystal Palace,Cultural,35.386,-119.043,Seven Oaks
+449,Bakersfield,CA,Murray Family Farms,Culinary,40.748,-73.978,Downtown Bakersfield
+450,Bakersfield,CA,Fox Theater,Cultural,34.062684,-118.447407,Seven Oaks
+451,Bakersfield,CA,Kern River County Park,Scenic,35.26777778,-119.30694444,Downtown Bakersfield
+452,Bakersfield,CA,McMurtrey Aquatic Center,Sporting,35.369954,-119.013047,Downtown Bakersfield
+453,Bakersfield,CA,Bakersfield Speedway,Sporting,35.34,-118.72,Downtown Bakersfield
+454,Tulsa,OK,Philbrook Museum of Art,Art,36.12388889,-95.97,Pearl District
+455,Tulsa,OK,Gilcrease Museum,Historical,36.17472222,-96.02138889,Brookside
+456,Tulsa,OK,Tulsa Zoo and Living Museum,Scenic,36.20868,-95.92978,Downtown Tulsa
+457,Tulsa,OK,Tulsa Air and Space Museum,Historical,36.20694444,-95.89555556,Downtown Tulsa
+458,Tulsa,OK,Mohawk Park,Scenic,36.15541667,-95.98986111,Pearl District
+459,Tulsa,OK,ONEOK Field,Sporting,36.15972222,-95.98805556,Utica Square
+460,Tulsa,OK,Tulsa Performing Arts Center,Cultural,36.15416667,-95.98944444,Brookside
+461,Tulsa,OK,Utica Square,Social,36.13194444,-95.96388889,Pearl District
+462,Tampa,FL,Florida Aquarium,Scenic,27.94416667,-82.445,South Tampa
+463,Tampa,FL,Henry B. Plant Museum,Historical,27.94547222,-82.46401389,Westshore
+464,Tampa,FL,Ybor City,Cultural,27.96138889,-82.445,Ybor City
+465,Tampa,FL,Tampa Riverwalk,Scenic,27.944696,-82.458767,Westshore
+466,Tampa,FL,Raymond James Stadium,Sporting,27.97583333,-82.50333333,Hyde Park
+467,Tampa,FL,Amalie Arena,Sporting,27.94277778,-82.45194444,Westshore
+468,Tampa,FL,Tampa Theatre,Cultural,27.95,-82.45888889,South Tampa
+469,Tampa,FL,International Plaza and Bay Street,Social,27.964447,-82.520748,Hyde Park
+470,Arlington,TX,AT&T Stadium,Sporting,32.74777778,-97.09277778,Downtown Arlington
+471,Arlington,TX,Globe Life Park in Arlington,Sporting,32.75138889,-97.08277778,Downtown Arlington
+472,Arlington,TX,Six Flags Over Texas,Touristy,32.7557,-97.07022222,Downtown Arlington
+473,Arlington,TX,Arlington Museum of Art,Art,32.755,-97.08194444,Downtown Arlington
+474,Arlington,TX,The Parks Mall at Arlington,Social,32.68,-97.1295,Downtown Arlington
+475,Arlington,TX,Arlington Highlands,Social,32.705,-97.12277778,Downtown Arlington
+476,Arlington,TX,Levitt Pavilion Arlington,Cultural,32.705,-97.12277778,Downtown Arlington
+477,Wichita,KS,Sedgwick County Zoo,Touristy,37.7158,-97.4104,Riverside
+478,Wichita,KS,Exploration Place,Touristy,37.69,-97.35,Delano
+479,Wichita,KS,Old Town Wichita,Historical,37.68888889,-97.33611111,Old Town
+480,Wichita,KS,Wichita Art Museum,Art,37.695,-97.35638889,Riverside
+481,Wichita,KS,"Botanica, The Wichita Gardens",Scenic,37.6961,-97.3638,Riverside
+482,Wichita,KS,Intrust Bank Arena,Sporting,37.68305556,-97.33138889,Old Town
+483,Wichita,KS,Century II Performing Arts & Convention Center,Social,37.684876,-97.340283,Old Town
+484,Aurora,CO,Aurora History Museum,Historical,39.7294,-104.8319,Aurora Hills
+485,Aurora,CO,Aurora Fox Arts Center,Art,39.73972222,-104.8725,Aurora Hills
+486,Aurora,CO,Cherry Creek State Park,Scenic,39.63055556,-104.84583333,Aurora Hills
+487,Aurora,CO,Aurora Reservoir,Scenic,39.61916667,-104.66111111,Aurora Hills
+488,Aurora,CO,Aurora Municipal Center,Social,41.77194444,-88.47555556,Stanley Marketplace
+489,Aurora,CO,Morrison Nature Center,Scenic,39.7294,-104.8319,Aurora Hills
+490,Aurora,CO,Aurora Sports Park,Sporting,39.7294,-104.8319,Aurora Hills
+491,New Orleans,LA,French Quarter,Historical,29.95861111,-90.065,French Quarter
+492,New Orleans,LA,National WWII Museum,Historical,29.94305556,-90.07027778,French Quarter
+493,New Orleans,LA,Bourbon Street,Social,29.959,-90.0653,French Quarter
+494,New Orleans,LA,Jackson Square,Scenic,29.9575,-90.06305556,French Quarter
+495,New Orleans,LA,New Orleans Museum of Art,Art,29.98638889,-90.09341667,Bywater
+496,New Orleans,LA,Cafe du Monde,Culinary,29.957515,-90.061823,French Quarter
+497,New Orleans,LA,Preservation Hall,Cultural,29.9583,-90.0654,French Quarter
+498,New Orleans,LA,New Orleans Jazz National Historical Park,Cultural,29.96305556,-90.06805556,French Quarter
+499,New Orleans,LA,Mercedes-Benz Superdome,Sporting,29.95083333,-90.08111111,French Quarter
+500,Cleveland,OH,Rock and Roll Hall of Fame,Cultural,41.50861111,-81.69555556,Gordon Square
+501,Cleveland,OH,Cleveland Museum of Art,Art,41.50888889,-81.61166667,Shaker Square
+502,Cleveland,OH,West Side Market,Culinary,41.48444444,-81.70305556,Ohio City
+503,Cleveland,OH,Cleveland Metroparks Zoo and RainForest,Touristy,41.447,-81.712,Tremont
+504,Cleveland,OH,USS Cod Submarine Memorial,Historical,41.51005,-81.69164,Ohio City
+505,Cleveland,OH,Playhouse Square,Social,41.50083333,-81.68083333,Downtown Cleveland
+506,Cleveland,OH,Progressive Field,Sporting,41.49583333,-81.68527778,Downtown Cleveland
+507,Cleveland,OH,FirstEnergy Stadium,Sporting,41.50611111,-81.69944444,Gordon Square
+508,Cleveland,OH,Cleveland Museum of Natural History,Touristy,41.51155556,-81.61308333,Shaker Square
+509,Honolulu,HI,Waikiki Beach,Scenic,21.2752,-157.8312,Waikiki
+510,Honolulu,HI,Pearl Harbor and USS Arizona Memorial,Historical,21.365,-157.95,Downtown Honolulu
+511,Honolulu,HI,Hanauma Bay Nature Preserve,Scenic,21.27138889,-157.69444444,Waikiki
+512,Honolulu,HI,Diamond Head State Monument,Scenic,21.26194444,-157.80555556,Waikiki
+513,Honolulu,HI,Bishop Museum,Cultural,21.33333333,-157.87061111,Kaka'ako
+514,Honolulu,HI,Honolulu Museum of Art,Art,21.30388889,-157.84861111,Kaka'ako
+515,Honolulu,HI,Iolani Palace,Historical,21.30666667,-157.85888889,Kaka'ako
+516,Honolulu,HI,Aloha Tower,Scenic,21.30708333,-157.86597222,Chinatown
+517,Honolulu,HI,Honolulu Zoo,Touristy,21.2709,-157.8192,Waikiki
+518,Anaheim,CA,Knott's Berry Farm,Touristy,33.844178,-118.000267,The Anaheim Resort
+519,Anaheim,CA,Angel Stadium,Sporting,33.80027778,-117.88277778,The Colony
+520,Anaheim,CA,Honda Center,Sporting,33.80777778,-117.87666667,The Colony
+521,Anaheim,CA,The Anaheim Packing District,Culinary,33.831457,-117.912104,Downtown Anaheim
+522,Anaheim,CA,Oak Canyon Nature Center,Scenic,33.83742,-117.75342,Anaheim Hills
+523,Anaheim,CA,City National Grove of Anaheim,Social,33.803164,-117.885681,The Anaheim Resort
+524,Anaheim,CA,Downtown Anaheim,Cultural,33.833914,-117.915446,The Colony
+525,Henderson,NV,Lake Las Vegas,Scenic,36.102,-114.9295,Lake Las Vegas
+526,Henderson,NV,Ethel M Chocolate Factory,Culinary,36.073,-115.072,MacDonald Highlands
+527,Henderson,NV,Clark County Heritage Museum,Historical,36.01027778,-114.94527778,MacDonald Highlands
+528,Henderson,NV,Water Street District,Social,41.13805556,-77.44944444,Lake Las Vegas
+529,Henderson,NV,Henderson Multigenerational Center,Cultural,36.03333333,-114.98333333,MacDonald Highlands
+530,Henderson,NV,Acacia Demonstration Gardens,Scenic,36.0304,-115.0153,MacDonald Highlands
+531,Henderson,NV,Henderson Bird Viewing Preserve,Scenic,36.03333333,-114.98333333,Water Street District
+532,Henderson,NV,The District at Green Valley Ranch,Social,36.02098889,-115.09105556,MacDonald Highlands
+533,Orlando,FL,Universal Orlando Resort,Touristy,28.47361111,-81.46666667,Thornton Park
+534,Orlando,FL,Gatorland,Touristy,28.3557,-81.404,Thornton Park
+535,Orlando,FL,Kennedy Space Center Visitor Complex,Historical,28.5233,-80.6819,Downtown Orlando
+536,Orlando,FL,Orlando Science Center,Cultural,28.572321,-81.368394,College Park
+537,Orlando,FL,Lake Eola Park,Scenic,28.54361111,-81.37277778,Winter Park
+538,Orlando,FL,Thornton Park,Social,28.53361111,-81.37583333,Thornton Park
+539,Lexington,KY,Mary Todd Lincoln House,Historical,38.05135278,-84.50278611,Historic South Hill
+540,Lexington,KY,Ashland: The Henry Clay Estate,Historical,38.02861111,-84.48,Ashland Park
+541,Lexington,KY,Kentucky Horse Park,Touristy,38.15,-84.51666667,Downtown Lexington
+542,Lexington,KY,Red River Gorge,Scenic,37.83388889,-83.60777778,Ashland Park
+543,Lexington,KY,Lexington Farmers Market,Culinary,39.29189,-76.62175,Ashland Park
+544,Lexington,KY,Rupp Arena,Sporting,38.04944444,-84.50277778,Historic South Hill
+545,Stockton,CA,Bob Hope Theatre,Art,51.4494,0.0504,Civic Center
+546,Stockton,CA,Stockton Arena,Sporting,37.956077,-121.296116,Miracle Mile
+547,Stockton,CA,Weber Point Events Center,Social,37.964,-121.278,Civic Center
+548,Stockton,CA,Haggin Museum,Art,37.960284,-121.313991,Weberstown
+549,Stockton,CA,Downtown Stockton,Cultural,37.97555556,-121.30083333,Downtown Stockton
+550,Stockton,CA,Stockton Farmers Market,Culinary,37.97555556,-121.30083333,Pacific
+551,Stockton,CA,Micke Grove Zoo,Touristy,38.07916667,-121.27194444,Civic Center
+552,Stockton,CA,Oak Grove Regional Park,Scenic,38.08194444,-121.27222222,Weberstown
+553,Riverside,CA,Mission Inn Hotel & Spa,Historical,33.98333333,-117.37277778,Arlington
+554,Riverside,CA,Riverside Art Museum,Art,33.98166667,-117.37055556,Arlington
+555,Riverside,CA,"University of California, Riverside",Cultural,33.97555556,-117.33111111,Eastside
+556,Riverside,CA,March Field Air Museum,Historical,33.883848,-117.266682,Arlington
+557,Riverside,CA,Riverside National Cemetery,Historical,33.88472222,-117.27611111,Eastside
+558,Riverside,CA,The Galleria at Tyler,Social,33.91021,-117.45758,Casa Blanca
+559,Corpus Christi,TX,Padre Island National Seashore,Scenic,26.98444444,-97.38055556,Downtown Corpus Christi
+560,Corpus Christi,TX,USS Lexington Museum,Historical,27.815,-97.38861111,North Beach
+561,Corpus Christi,TX,Texas State Aquarium,Touristy,27.81388889,-97.39222222,Flour Bluff
+562,Corpus Christi,TX,Corpus Christi Museum of Science and History,Cultural,27.81027778,-97.395,Flour Bluff
+563,Corpus Christi,TX,Mustang Island State Park,Scenic,27.67531,-97.17693,Bay Area
+564,Corpus Christi,TX,Corpus Christi Bayfront,Scenic,27.77222222,-97.25277778,Bay Area
+565,Corpus Christi,TX,Whataburger Field,Sporting,27.80958333,-97.39969444,Flour Bluff
+566,Corpus Christi,TX,American Bank Center,Social,27.80733889,-97.39356111,North Beach
+567,Irvine,CA,Irvine Regional Park,Scenic,33.7953,-117.7506,Quail Hill
+568,Irvine,CA,Orange County Great Park,Scenic,33.67,-117.73,Irvine Spectrum
+569,Irvine,CA,"University of California, Irvine",Cultural,33.64555556,-117.8425,Business District
+570,Irvine,CA,Irvine Spectrum Center,Social,33.650378,-117.743504,El Camino Real
+571,Irvine,CA,Laguna Beach,Scenic,33.53138889,-117.76916667,Irvine Spectrum
+572,Irvine,CA,Irvine Valley College,Cultural,33.67666667,-117.77777778,Northwood
+573,Irvine,CA,Quail Hill Open Space Preserve,Scenic,37.36265278,-122.22444444,Quail Hill
+574,Cincinnati,OH,Findlay Market,Culinary,39.11527778,-84.51916667,Over-the-Rhine
+575,Cincinnati,OH,Cincinnati Zoo and Botanical Garden,Touristy,39.145,-84.508,Over-the-Rhine
+576,Cincinnati,OH,Newport Aquarium,Touristy,39.0943725,-84.4975877,Mount Adams
+577,Cincinnati,OH,Cincinnati Art Museum,Art,39.11388889,-84.49694444,Mount Adams
+578,Cincinnati,OH,National Underground Railroad Freedom Center,Historical,39.0979,-84.51148,Mount Adams
+579,Cincinnati,OH,Cincinnati Museum Center at Union Terminal,Cultural,39.11,-84.53780556,Over-the-Rhine
+580,Cincinnati,OH,Eden Park,Scenic,-36.875,174.74472222,Downtown Cincinnati
+581,Cincinnati,OH,Krohn Conservatory,Scenic,39.11524,-84.4904,Mount Adams
+582,Cincinnati,OH,Great American Ball Park,Sporting,39.0975,-84.50666667,Mount Adams
+583,Cincinnati,OH,Paul Brown Stadium,Sporting,39.095,-84.516,Mount Adams
+584,Santa Ana,CA,Downtown Santa Ana,Social,33.74833333,-117.86805556,Downtown Santa Ana
+585,Santa Ana,CA,Dr. Howe-Waffle House,Historical,33.75055556,-117.86555556,Downtown Santa Ana
+586,Santa Ana,CA,Santa Ana Zoo,Touristy,33.743915,-117.84253056,Downtown Santa Ana
+587,Santa Ana,CA,MainPlace Mall,Social,33.77523,-117.86957,Downtown Santa Ana
+588,Santa Ana,CA,Santa Ana Stadium,Sporting,33.7506,-117.8775,Downtown Santa Ana
+589,Santa Ana,CA,Lyon Air Museum,Historical,33.67347,-117.8732,Downtown Santa Ana
+590,Newark,NJ,Newark Museum,Art,40.74269444,-74.17180556,University Heights
+591,Newark,NJ,Branch Brook Park,Scenic,40.77027778,-74.17638889,Broadway
+592,Newark,NJ,Cathedral Basilica of the Sacred Heart,Historical,40.7549,-74.1784,University Heights
+593,Newark,NJ,New Jersey Performing Arts Center,Cultural,40.7401467,-74.1679199,University Heights
+594,Newark,NJ,Ironbound,Culinary,40.725,-74.16111111,Ironbound
+595,Newark,NJ,Prudential Center,Sporting,40.73361111,-74.17111111,Ironbound
+596,Newark,NJ,Newark Riverfront Park,Scenic,40.7333,-74.1478,Ironbound
+597,Newark,NJ,The Newark Public Library,Cultural,40.74459,-74.17067,University Heights
+598,Newark,NJ,Newark Symphony Hall,Cultural,40.72777778,-74.17638889,Ironbound
+599,Saint Paul,MN,Cathedral of Saint Paul,Historical,44.94694444,-93.10888889,Downtown Saint Paul
+600,Saint Paul,MN,Science Museum of Minnesota,Touristy,44.9425,-93.09861111,Downtown Saint Paul
+601,Saint Paul,MN,Como Park Zoo and Conservatory,Scenic,44.981397,-93.150807,Hamline-Midway
+602,Saint Paul,MN,Summit Brewing Company,Culinary,44.91388889,-93.13944444,Downtown Saint Paul
+603,Saint Paul,MN,Ordway Center for the Performing Arts,Cultural,44.9448,-93.0982,Downtown Saint Paul
+604,Saint Paul,MN,Minnesota Children's Museum,Touristy,44.94777778,-93.09694444,Downtown Saint Paul
+605,Saint Paul,MN,Harriet Island Regional Park,Scenic,44.9375,-93.09666667,Downtown Saint Paul
+606,Pittsburgh,PA,Phipps Conservatory and Botanical Gardens,Scenic,40.438948,-79.947705,Oakland
+607,Pittsburgh,PA,Pittsburgh Zoo and PPG Aquarium,Touristy,40.484,-79.918,Oakland
+608,Pittsburgh,PA,Mount Washington,Scenic,44.2705,-71.30325,Oakland
+609,Pittsburgh,PA,The Strip District,Culinary,40.45,-79.985,Shadyside
+610,Pittsburgh,PA,Senator John Heinz History Center,Historical,40.4466,-79.9922,Downtown Pittsburgh
+611,Pittsburgh,PA,Point State Park,Scenic,40.44166667,-80.01194444,Downtown Pittsburgh
+612,Greensboro,NC,Greensboro Science Center,Touristy,36.1299,-79.8341,Downtown Greensboro
+613,Greensboro,NC,Weatherspoon Art Museum,Art,36.06612,-79.80583,Fisher Park
+614,Greensboro,NC,Tanger Family Bicentennial Garden,Scenic,36.0929,-79.8416,Downtown Greensboro
+615,Greensboro,NC,Greensboro Historical Museum,Historical,36.07555556,-79.78805556,Fisher Park
+616,Greensboro,NC,Greensboro Coliseum Complex,Sporting,36.05972222,-79.82555556,Fisher Park
+617,Greensboro,NC,Triad Stage,Cultural,36.070684,-79.790533,Fisher Park
+618,Greensboro,NC,Greensboro Arboretum,Scenic,36.0701,-79.8413,Downtown Greensboro
+619,Greensboro,NC,Greensboro Cultural Center,Cultural,36.0738,-79.7885,Fisher Park
+620,Durham,NC,Durham Performing Arts Center,Cultural,35.99333333,-78.90222222,Trinity Park
+621,Durham,NC,Sarah P. Duke Gardens,Scenic,36.00180278,-78.93348333,Trinity Park
+622,Durham,NC,Durham Bulls Athletic Park,Sporting,35.99168889,-78.90418611,Trinity Park
+623,Durham,NC,Museum of Life and Science,Touristy,36.02865,-78.89734,Downtown Durham
+624,Durham,NC,Brightleaf Square,Social,36.00027778,-78.91027778,Trinity Park
+625,Durham,NC,American Tobacco Historic District,Historical,35.99527778,-78.90472222,Trinity Park
+626,Durham,NC,Durham Central Park,Scenic,36.00094444,-78.90191667,Trinity Park
+627,Lincoln,NE,Sunken Gardens,Scenic,27.79,-82.63833333,Haymarket
+628,Lincoln,NE,Lincoln Children's Zoo,Touristy,40.800175,-96.679141,Havelock
+629,Lincoln,NE,Pinnacle Bank Arena,Sporting,40.81777778,-96.71333333,Bethany
+630,Lincoln,NE,Nebraska State Capitol,Historical,40.80805556,-96.69972222,Downtown Lincoln
+631,Lincoln,NE,Sheldon Museum of Art,Art,40.8175,-96.70444444,Bethany
+632,Jersey City,NJ,Liberty State Park,Scenic,40.70416667,-74.04916667,Liberty State Park
+633,Jersey City,NJ,Ellis Island,Historical,40.69944444,-74.03972222,Liberty State Park
+634,Jersey City,NJ,Jersey City Museum,Art,40.7197,-74.0505,Downtown Jersey City
+635,Jersey City,NJ,Empty Sky Memorial,Historical,40.708303,-74.034628,Liberty State Park
+636,Jersey City,NJ,Downtown Jersey City,Social,40.7281,-74.0776,Journal Square
+637,Jersey City,NJ,Hudson River Waterfront Walkway,Scenic,40.571066,-74.217281,Greenville
+638,Plano,TX,The Shops at Legacy,Social,33.078,-96.825,Russell Creek
+639,Plano,TX,Plano Balloon Festival,Guided,33.0528,-96.6738,Russell Creek
+640,Plano,TX,Oak Point Park and Nature Preserve,Scenic,33.0574,-96.6741,Russell Creek
+641,Plano,TX,Interurban Railway Museum,Historical,33.01972222,-96.70166667,Russell Creek
+642,Plano,TX,Collin College,Cultural,33.2185,-96.6419,Collin County
+643,Plano,TX,Downtown Plano Arts District,Art,33.05027778,-96.69888889,Russell Creek
+644,Anchorage,AK,Tony Knowles Coastal Trail,Scenic,61.22055556,-149.8975,Bootleggers Cove
+645,Anchorage,AK,Anchorage Museum,Cultural,61.2161,-149.8845,Spenard
+646,Anchorage,AK,Kincaid Park,Scenic,61.186,-150.021,Government Hill
+647,Anchorage,AK,Anchorage Market and Festival,Social,61.21833333,-149.88972222,Spenard
+648,Anchorage,AK,Alaska Native Heritage Center,Cultural,61.2302,-149.717,Bootleggers Cove
+649,Anchorage,AK,Portage Glacier,Scenic,60.75305556,-148.78555556,Fairview
+650,Anchorage,AK,Chugach National Forest,Scenic,60.4614912,-149.1259814,Fairview
+651,Anchorage,AK,Anchorage 5th Avenue Mall,Social,61.21722222,-149.88861111,Spenard
+652,North Las Vegas,NV,Craig Ranch Regional Park,Scenic,36.24305556,-115.14916667,Aliante
+653,North Las Vegas,NV,Floyd Lamb State Park,Scenic,36.323917,-115.26603,Aliante
+654,North Las Vegas,NV,Cheyenne Sports Complex,Sporting,41.14,-104.82027778,Aliante
+655,North Las Vegas,NV,Downtown North Las Vegas,Social,36.17169,-115.14382,Aliante
+656,North Las Vegas,NV,Las Vegas Motor Speedway,Sporting,36.27134,-115.01112,Aliante
+657,North Las Vegas,NV,Shadow Creek Golf Course,Sporting,36.257762,-115.105959,Aliante
+658,St. Louis,MO,City Museum,Art,38.63361111,-90.20055556,Cherokee Street
+659,St. Louis,MO,Anheuser-Busch Brewery,Guided,38.5975,-90.21222222,Soulard
+660,St. Louis,MO,Cathedral Basilica of St. Louis,Historical,38.6425,-90.25472222,The Hill
+661,St. Louis,MO,Saint Louis Art Museum,Art,38.63944444,-90.29444444,The Hill
+662,St. Louis,MO,Missouri Botanical Garden,Scenic,38.6125,-90.25972222,The Hill
+663,St. Louis,MO,Six Flags St. Louis,Touristy,38.514,-90.676,The Hill
+664,St. Louis,MO,Grant's Farm,Touristy,38.54805556,-90.3575,The Hill
+665,Madison,WI,University of Wisconsin-Madison,Cultural,43.07527778,-89.40416667,University Heights
+666,Madison,WI,Olbrich Botanical Gardens,Scenic,43.0925,-89.335,Maple Bluff
+667,Madison,WI,Wisconsin State Capitol,Historical,43.07472222,-89.38416667,State Street
+668,Madison,WI,Lake Monona,Scenic,43.06916667,-89.35944444,State Street
+669,Madison,WI,Chazen Museum of Art,Art,43.07388889,-89.39972222,University Heights
+670,Madison,WI,UW-Madison Arboretum,Scenic,43.07527778,-89.40416667,University Heights
+671,Madison,WI,Alliant Energy Center,Social,43.043952,-89.38071,State Street
+672,Madison,WI,Camp Randall Stadium,Sporting,43.07,-89.41277778,University Heights
+673,Chandler,AZ,Chandler Fashion Center,Social,33.301354,-111.898526,Ocotillo
+674,Chandler,AZ,Downtown Chandler,Social,33.3,-111.83333333,Ocotillo
+675,Chandler,AZ,Tumbleweed Park,Scenic,33.3,-111.83333333,Ocotillo
+676,Chandler,AZ,Chandler Museum,Cultural,33.3,-111.83333333,Ocotillo
+677,Chandler,AZ,Hammertown Lake,Scenic,39.04027778,-82.62916667,Dobson Ranch
+678,Chandler,AZ,Chandler Center for the Arts,Art,33.307354,-111.842317,Downtown Chandler
+679,Gilbert,AZ,Downtown Gilbert,Social,33.35277778,-111.78888889,Downtown Gilbert
+680,Gilbert,AZ,Gilbert Riparian Preserve,Scenic,33.38,-111.73,Heritage District
+681,Gilbert,AZ,Gilbert Historical Museum,Historical,33.35277778,-111.78888889,Heritage District
+682,Gilbert,AZ,Gilbert Farmers Market,Culinary,39.97194444,-75.16638889,Heritage District
+683,Gilbert,AZ,SanTan Village,Social,33.30972222,-111.74305556,Downtown Gilbert
+684,Gilbert,AZ,Gilbert Temple,Cultural,33.29138889,-111.73736111,Heritage District
+685,Reno,NV,National Automobile Museum,Cultural,39.52586,-119.8096,Downtown Reno
+686,Reno,NV,Lake Tahoe,Scenic,39.0,-120.0,Riverside
+687,Reno,NV,Mount Rose Ski Tahoe,Sporting,39.32916667,-119.88583333,Old Southwest
+688,Reno,NV,Great Basin Brewing Company,Culinary,39.535009,-119.754151,Old Southwest
+689,Reno,NV,National Bowling Stadium,Sporting,39.52953611,-119.81205556,Riverside
+690,Reno,NV,Reno Aces Ballpark,Sporting,39.529,-119.808,Old Southwest
+691,Reno,NV,Fleischmann Planetarium,Cultural,39.546111,-119.818611,Downtown Reno
+692,Reno,NV,Wilbur D. May Arboretum and Botanical Garden,Scenic,39.5462,-119.8253,Downtown Reno
+693,Buffalo,NY,Niagara Falls,Scenic,43.0799,-79.0747,Elmwood Village
+694,Buffalo,NY,Canalside,Social,42.89138889,-78.8725,Allentown
+695,Buffalo,NY,Anchor Bar,Culinary,42.90238889,-78.86855556,Elmwood Village
+696,Buffalo,NY,Albright-Knox Art Gallery,Art,42.93245,-78.87563,Elmwood Village
+697,Buffalo,NY,Buffalo and Erie County Botanical Gardens,Scenic,42.8281,-78.8258,Canalside
+698,Buffalo,NY,Frank Lloyd Wright's Darwin Martin House,Historical,42.93616111,-78.84813056,North Buffalo
+699,Buffalo,NY,Buffalo Zoo,Touristy,42.9391,-78.8536,North Buffalo
+700,Buffalo,NY,KeyBank Center,Sporting,42.875,-78.87638889,Canalside
+701,Buffalo,NY,Buffalo Museum of Science,Cultural,42.906132,-78.843314,North Buffalo
+702,Chula Vista,CA,Aquatica San Diego,Touristy,32.5884,-117.0101,Rancho del Rey
+703,Chula Vista,CA,Chula Vista Marina,Scenic,32.62777778,-117.04805556,Bonita
+704,Chula Vista,CA,Living Coast Discovery Center,Cultural,32.6401,-117.1104,Eastlake
+705,Chula Vista,CA,Chula Vista Center,Social,32.6301,-117.0861,Rancho del Rey
+706,Chula Vista,CA,Third Avenue Village,Social,40.8075,-73.9325,Bonita
+707,Chula Vista,CA,Chula Vista Nature Center,Cultural,32.62777778,-117.04805556,Bonita
+708,Chula Vista,CA,Mattress Firm Amphitheatre,Social,32.587778,-117.006389,Otay Ranch
+709,Chula Vista,CA,Chula Vista Public Library,Cultural,32.62777778,-117.04805556,Eastlake
+710,Fort Wayne,IN,Fort Wayne Children's Zoo,Touristy,41.10638889,-85.15451389,Fort Wayne Historic District
+711,Fort Wayne,IN,Fort Wayne Museum of Art,Art,41.08135556,-85.13579167,West Central
+712,Fort Wayne,IN,Headwaters Park,Scenic,45.9207,-111.498,West Central
+713,Fort Wayne,IN,Parkview Field,Sporting,41.07405556,-85.14286111,Fort Wayne Historic District
+714,Fort Wayne,IN,The Historic Old Fort,Historical,43.26277778,-79.06305556,West Central
+715,Fort Wayne,IN,Jefferson Pointe,Social,41.07216667,-85.19730556,West Central
+716,Lubbock,TX,Lubbock Lake Landmark State Historical Park,Historical,33.62194444,-101.88972222,Overton
+717,Lubbock,TX,Texas Tech University,Cultural,33.584,-101.878,Overton
+718,Lubbock,TX,Mackenzie Park,Scenic,33.585,-101.845,Overton
+719,Lubbock,TX,Lubbock Memorial Civic Center,Social,33.58833333,-101.85111111,Overton
+720,Lubbock,TX,National Ranching Heritage Center,Cultural,33.59074444,-101.88428056,Overton
+721,Lubbock,TX,Silent Wings Museum,Historical,33.657778,-101.831667,Downtown Lubbock
+722,Toledo,OH,Toledo Museum of Art,Art,41.65833333,-83.55944444,Sylvania
+723,Toledo,OH,Imagination Station,Cultural,41.651904,-83.531468,Old West End
+724,Toledo,OH,Toledo Zoo & Aquarium,Touristy,41.6191,-83.5807,Ottawa Hills
+725,Toledo,OH,Toledo Botanical Garden,Scenic,41.6680556,-83.6722222,Sylvania
+726,Toledo,OH,Toledo Farmers' Market,Culinary,41.65,-83.53333333,Old West End
+727,Toledo,OH,Toledo Harbor Lighthouse,Scenic,41.76166667,-83.32833333,Downtown Toledo

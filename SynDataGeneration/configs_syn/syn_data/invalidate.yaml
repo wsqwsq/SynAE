@@ -1,0 +1,4 @@
+gen_method_type: invalidate
+gen_params:
+  invalidate_frac: 0.5
+  seed: 123

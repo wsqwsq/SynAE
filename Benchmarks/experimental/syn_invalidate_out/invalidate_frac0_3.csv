@@ -1,0 +1,1179 @@
+ID,Data,Tool Call,Output
+10,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Scenic attractions in St. Louis.
+assistant: St. Louis has a lot of great Scenic spots. Have you considered Downtown St. Louis?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Scenic attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""St. Louis"", type=[""Scenic""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown St. Louis""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+attractions = get_results_from_cache(key=""attractions"")"," ""SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in St. Louis. attraction type(s): [Scenic].\n\nAdditionally filtering for neighborhood(s): [Downtown St. Louis].')}
+
+assistant: ""SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in St. Louis. attraction type(s): [Scenic].\n\nAdditionally filtering for neighborhood(s): [Downtown St. Louis].']}
+
+assistant: ""SearchResultsOutput"
+100,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Touristy attractions in Colorado Springs.
+assistant: Colorado Springs has a lot of great Touristy spots. Have you considered Downtown Colorado Springs?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Touristy attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Colorado Springs"", type=[""Touristy""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Colorado Springs""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+attractions = get_results_from_cache(key=""attractions"")"," ""It's a great area with a lot of Cultural spots. Have you considered Downtown Colorado Springs.?""}, {'assistant': "" What's there?""}, {'assistant': "" It's a great area with a lot of Cultural spots. Have you considered Downtown Colorado Springs.?""}, {'assistant': "" What's there?""}, {'assistant': "" It's a great area with a lot of Cultural spots. Have you considered Downtown Colorado Springs.?""}, {'assistant': "" What's there"
+102,"assistant: Hello! What brings you here today?
+user: I'm planning a trip to CA and I want to find some Sporting and Social attractions.
+assistant: CA has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible.
+assistant: Anything else I can help you with
+user: No, Thanks","attractions = search_attractions(state=""CA"", type=[""Sporting"", ""Social""])
+save_to_cache(key=""attractions"", value=attractions)"," 
+Based on your interest in Scenic and Sporting attractions in CA, I recommend the following top 5 attractions:
+
+1. **Dodger Stadium** in Los Angeles - a world-renowned baseball stadium that offers a unique experience for sports enthusiasts.
+2. **Santa Monica Pier** in Los Angeles - a classic beachside amusement park with a variety of Sporting activities, including arcade games, food vendors, and stunning ocean views.
+3. **Golden 1 Center** in Sacramento - a state-of-the-art"
+104,"assistant: Hi, how can I help you today?
+user: I'm looking for Scenic attractions in AZ.
+assistant: AZ has a rich history and culture. What specific type of Scenic attractions are you interested in?
+user: I'm not sure, just something interesting.
+assistant: Okay, let me see what I can find for you. Are you open to visiting different cities in AZ?
+user: Yes, I am. Infact, I am thinking of going to St. Louis.","attractions = search_attractions(type=[""Scenic""], state=""AZ"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, city = ""St. Louis"")
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)","'Hi, how can I help you today?'}, {'user': "" I'm looking for Historical attractions in AZ. attraction type(s): [Historical].\nThere are 8 attractions that matched this query!'), 'filtered_attractions': SearchResultsOutputModel(search_results=[{'Unnamed: 0': 675, 'city': 'Gilbert','state': 'AZ', 'attraction_name': 'Gilbert', 'type': 'Historical', 'latitude': "
+108,"assistant: Hello! Are you looking for a unique experience? I can help you find some hidden gems in San Antonio.
+user: Yeah, I'm thinking of visiting some Historical attractions in San Antonio.
+assistant: San Antonio has a lot of great Historical spots. Have you considered Downtown San Antonio?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Historical attractions. I can give you some insider tips.
+user: Okay, that sounds good.","attractions = search_attractions(city=""San Antonio"", type=[""Historical""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown San Antonio""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)","'Hello! Are you looking for a unique experience? I can help you find some hidden gems in San Antonio. attraction type(s): [Historical].\nThere are 2 attractions that matched this query!'), 'filtered_attractions': SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in San Antonio. attraction type(s): [Historical].\nThere are 2 attractions that matched this query!'), 'filtered_attractions': SearchResultsOutputModel(search_results=[],"
+11,"assistant: Hi there! How can I assist you?
+user: I'm looking for some Guided attractions in Atlanta.
+assistant: We have a lot of great Guided spots in Atlanta. Are you interested in anything specific?
+user: Not really, just something fun.
+assistant: Okay, let me give you some recommendations. Have you considered Buckhead?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Atlanta"", type=[""Guided""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Buckhead""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)","'We have a lot of great Guided spots in Atlanta. Are you interested in anything specific?'}, {'assistant':'We have a lot of great Guided spots in Atlanta. Are you interested in anything specific?'}, {'assistant':'Not really, just something.'}, {'assistant':'Okay, let me give you some recommendations. Have you considered Buckhead.'}, {'assistant':'We have a lot of great Guided spots in Atlanta. Are you interested in anything specific?'},"
+113,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Culinary attractions in Colorado Springs.
+assistant: Colorado Springs has a lot of great Culinary spots. Have you considered Downtown Colorado Springs?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Culinary attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Colorado Springs"", type=[""Culinary""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Colorado Springs""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")","'Colorado Springs, has a lot of great Cul attractions. I can give you some recommendations.""}, {'assistant':'Colorado has a lot of great Cul attractions. I can give you some recommendations.""}, {'assistant':'Colorado has a lot of great Cul attractions. I can give you some recommendations.""}, {'assistant':'Colorado has a lot of great Cul attractions. I can give you some recommendations.""}, {'assistant':'Colorado has a lot of great Cul attractions. I can give you"
+114,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Culinary attractions in Lexington.
+assistant: Lexington has a lot of great Culinary spots. Have you considered Downtown Lexington?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Culinary attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Lexington"", type=[""Culinary""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Lexington""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")"," 'Lexington, I'm visiting some Culinary attractions in.'}, {'assistant':'Yeah, I'm of course visiting some Culinary attractions in.'}, {'assistant':'It's a great area with a lot of Culinary attractions. I can give you some recommendations.'}, {'assistant':'Okay, that sounds good.'}]
+
+# Search Results
+{'attractions': SearchResultsOutputModel(search_results=[{'Unnamed: 0': 543, 'city': 'Lexington',"
+12,"assistant: Hello! What brings you here today?
+user: I'm planning a trip to AZ and I want to find some Culinary and Touristy attractions.
+assistant: AZ has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible.
+assistant: Anything else I can help you with
+user: No, Thanks","attractions = search_attractions(state=""AZ"", type=[""Culinary"", ""Touristy""])
+save_to_cache(key=""attractions"", value=attractions)"," 'SearchResults', 'type': 'Attraction', 'latitude': 33.44921, 'longitude': -110.86869444, 'neighborhood': 'Red Mountain Ranch', }, {'Unnamed: 0': 372, 'city': 'Mesa','state': 'AZ', 'attraction_name': 'Pima Air & Space Museum', 'type': 'Culinary', 'latitude': 33.3928, 'longitude': -111.8078"
+121,"assistant: Hello! What kind of attractions are you looking for? Are you interested in history, art, or something else?
+user: I'm interested in Art and Historical attractions in TX.
+assistant: TX has a lot to offer. Are you looking at specific cities or regions?
+user: Yeah, I'm thinking of visiting Lexington and Atlanta.
+assistant: Both Lexington and Atlanta have great Art and Historical attractions. Let me tell you about some of them.
+user: That sounds great.","attractions = search_attractions(type=[""Art"", ""Historical""], state=""TX"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions1 = filter_attractions(prior_results=attractions, city=""Lexington"")
+filtered_attractions2 = filter_attractions(prior_results=attractions, city=""Atlanta"")
+save_to_cache(key=""filtered_attractions1"", value=filtered_attractions1)
+save_to_cache(key=""filtered_attractions2"", value=filtered_attractions2)
+filtered_attractions1 = get_results_from_cache(key=""filtered_attractions1"")
+filtered_attractions2 = get_results_from_cache(key=""filtered_attractions2"")"," {
+    'attractions': [
+        {'type': 'Art', 'latitude': 29.73722222, 'longitude': -95.39861111, 'neighborhood': 'Downtown'},
+        {'type': 'Art', 'latitude': 29.42555556, 'longitude': -96.796667, 'neighborhood': 'Uptown'},
+        {'type': 'Art', 'latitude': 29.42555556, 'longitude': -96."
+122,"assistant: Hello! What brings you here today? Are you looking for a quick weekend getaway or a longer vacation?
+user: I'm planning a trip to OR and I want to find some Guided attractions.
+assistant: OR has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible. What are some popular Guided spots in OR?
+assistant: There are several. Let me see what I can find for you.
+user: Great, thanks!","attractions = search_attractions(state=""OR"", type=[""Guided""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")","'I'm planning a trip to OR and I want to find some Guided attractions.'}, {'assistant':'There are several. Let me see what I can find for you.'}, {'assistant':'I'm planning a trip to OR and I want to find some Guided attractions.'}, {'assistant':'There are several. Let me see what I can find for you.'}, {'assistant':'There are several. Let me see what I can find for you.'}, {'assistant"
+129,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Guided attractions in St. Louis.
+assistant: St. Louis has a lot of great Guided spots. Have you considered Downtown St. Louis?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Guided attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""St. Louis"", type=[""Guided""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown St. Louis""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")"," ""What's there?""}, {'assistant': "" It's a great area with a lot of Guided attractions. I can give you some recommendations.""}, {'assistant': "" Yeah, I'm of course visiting some Guided attractions. I can give you some recommendations.""}, {'assistant': "" That's what I'm of course visiting some Guided attractions. I can give you some recommendations.""}, {'assistant': "" That's what I'm of course visiting some Guided attractions. I can give"
+130,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Scenic attractions in Fresno.
+assistant: Fresno has a lot of great Scenic spots. Have you considered Downtown Fresno?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Scenic attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Fresno"", type=[""Scenic""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Fresno""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+attractions = get_results_from_cache(key=""attractions"")"," ""I'm looking for something to do in your free time?'}, {'assistant': "" Yeah, I'm looking for something to do in your free time?'}, {'assistant': "" It's a great area with a lot of Scenic attractions. I can give you some recommendations.""}, {'assistant': "" Yeah, I'm looking for something to do in your free time?'}, {'assistant': "" It's a great area with a lot of Scenic attractions. I can give you some recommendations"
+132,"assistant: Hello! What brings you here today?
+user: I'm planning a trip to NV and I want to find some Social and Touristy attractions.
+assistant: NV has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible.
+assistant: Anything else I can help you with
+user: No, Thanks","attractions = search_attractions(state=""NV"", type=[""Social"", ""Touristy""])
+save_to_cache(key=""attractions"", value=attractions)"," 'SearchResultsOutputModel(search_results=[{'Unnamed: 0': 655, 'city': 'Henderson','state': 'NV', 'attraction_name': 'The District at Green Valley Ranch', 'type': 'Social', 'latitude': 36.02098889, 'longitude': -115.09105556, 'neighborhood': 'MacDonald', }, {'Unnamed: 0': 655, 'city': 'Henderson','state': '"
+136,"assistant: Hello! What kind of attractions are you looking for? Are you interested in history, art, or something else?
+user: I'm interested in Culinary and Scenic attractions in CO.
+assistant: CO has a lot to offer. Are you looking at specific cities or regions?
+user: Yeah, I'm thinking of visiting Memphis and Las Vegas.
+assistant: Both Memphis and Las Vegas have great Culinary and Scenic attractions. Let me tell you about some of them.
+user: That sounds great.","attractions = search_attractions(type=[""Culinary"", ""Scenic""], state=""CO"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions1 = filter_attractions(prior_results=attractions, city=""Memphis"")
+filtered_attractions2 = filter_attractions(prior_results=attractions, city=""Las Vegas"")
+save_to_cache(key=""filtered_attractions1"", value=filtered_attractions1)
+save_to_cache(key=""filtered_attractions2"", value=filtered_attractions2)
+filtered_attractions1 = get_results_from_cache(key=""filtered_attractions1"")
+filtered_attractions2 = get_results_from_cache(key=""filtered_attractions2"")"," {
+    'attractions': [
+        {'name': 'Red Rock Canyon', 'type': 'Touristy', 'latitude': 39.7325, 'longitude': -104.8319, 'neighborhood': 'Aurora Hills'}, {'name': 'Red Rock Canyon', 'type': 'Touristy', 'latitude': 39.7294, 'longitude': -104.8319, 'neighborhood': 'Aurora Hills'}, {'name': 'Aur"
+138,"assistant: Hello! Are you looking for a unique experience? I can help you find some hidden gems in Raleigh.
+user: Yeah, I'm thinking of visiting some Historical attractions in Raleigh.
+assistant: Raleigh has a lot of great Historical spots. Have you considered Downtown Raleigh?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Historical attractions. I can give you some insider tips.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Raleigh"", type=[""Historical""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Raleigh""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," 'Hello! Are you looking for a unique experience? I can help you find some hidden gems in Raleigh. attraction type(s): [Historical].\nThere are 1 attractions that matched this query!'), 'filtered_attractions': SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in Raleigh. attraction type(s): [Historical].\nThere are 1 attractions that matched this query!'), 'filtered_attractions': SearchResultsOutputModel(search_results=[], query_summary"
+141,"assistant: Hi, how can I help you today? Are you looking for a short or long trip?
+user: I'm looking for Art attractions in MO.
+assistant: MO has a rich history and culture. What specific type of Art attractions are you interested in?
+user: I'm not sure, just give me all for now
+assistant: Okay, let me see what I can find for you. Are you open to visiting different cities in MO?
+user: Yes, I am. Infact, I am thinking of going to St. Louis for sure.","attractions = search_attractions(type=[""Art""], state=""MO"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, city=""St. Louis"")
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," 'filtered_attractions': SearchResultsOutputModel(search_results=[{'Unnamed: 0': 658, 'city': 'St. Louis','state': 'MO', 'attraction_name': 'City Museum', 'type': 'Touristy', 'latitude': 38.63361111, 'longitude': -90.20055556, 'neighborhood': 'The Hill'}], query_summary='Attraction search results in MO. attraction type(s): [Touristy].\nThere are"
+143,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Art attractions in Tucson.
+assistant: Tucson has a lot of great Art spots. Have you considered Downtown Tucson?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Art attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Tucson"", type=[""Art""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Tucson""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")"," 'Hello! Are you looking for something to do in your free time?'}, {'assistant':'Tucson has a lot of great Art spots. Have you considered Downtown Tucson.'}, {'assistant':'Tucson has a lot of great Art spots. I can give you some recommendations.'}, {'assistant':'Yeah, I'm thinking of visiting some Art attractions in Tucson. I can give you some recommendations.'}, {'assistant':'Tucson has a lot of great Art spots. Have you considered Downtown Tucson"
+145,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Scenic attractions in Fresno.
+assistant: Fresno has a lot of great Scenic spots. Have you considered Downtown Fresno?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Scenic attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Fresno"", type=[""Scenic""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Fresno""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+attractions = get_results_from_cache(key=""attractions"")"," 'Hello! Are you looking for something to do in your free time?'}, {'assistant':'Yeah, I'm thinking of visiting some Scenic spots. Have you considered Downtown Fresno', {'assistant':'Fresno has a lot of great Scenic spots. I can give you some recommendations.'}, {'assistant':'Fresno has a lot of great Scenic spots. Have you considered Downtown Fresno has a lot of great Scenic spots. I can give you some recommendations.'}, {'assistant': '"
+147,"assistant: Hello! What brings you here today?
+user: I'm planning a trip to CA and I want to find some Guided and Historical attractions.
+assistant: CA has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible.
+assistant: Anything else I can help you with
+user: No, Thanks","attractions = search_attractions(state=""CA"", type=[""Guided"", ""Historical""])
+save_to_cache(key=""attractions"", value=attractions)"," 'Search results for attractions that best match the user based on the conversation between the user and the assistant, as well as the provided search results. The last turn in the conversation is from the user.
+
+assistant: 'Search results for attractions that best match the user based on the conversation between the user and the assistant, as well as the provided search results. The last turn in the conversation is from the user.
+
+assistant: 'Search results for attractions that best match the user based on the conversation between the"
+149,"assistant: Hi, how can I help you today?
+user: I'm looking for Cultural attractions in OR.
+assistant: OR has a rich history and culture. What specific type of Cultural attractions are you interested in?
+user: I'm not sure, just something interesting.
+assistant: Okay, let me see what I can find for you. Are you open to visiting different cities in OR?
+user: Yes, I am. Infact, I am thinking of going to Anchorage.","attractions = search_attractions(type=[""Cultural""], state=""OR"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, city = ""Anchorage"")
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," 'Yes, I am. Infact, I am thinking of going to Anchorage.'}]
+
+# Search
+{'attractions': SearchResultsOutputModel(search_results=[{'Unnamed: 0': 301, 'city': 'Portland','state': 'OR', 'attraction_name': 'Lan', 'type': 'Scenic', 'latitude': 45.52334444, 'longitude': -122.68158611, 'neighborhood': 'Downtown',},"
+150,"assistant: Hello! I'd love to help you discover new attractions. What's your favorite type of Sporting activity?
+user: I'm planning a trip to CA and I want to find some Sporting attractions.
+assistant: CA has a lot to offer. Can you tell me more about what you're looking for in a Sporting experience?
+user: Not really, just something exciting.
+assistant: Let me ask you this: are you open to trying new things or do you prefer more traditional Sporting activities?
+user: I'm open to anything.","attractions = search_attractions(state=""CA"", type=[""Sporting""])
+save_to_cache(key=""attractions"", value=attractions)"," 'attraction_name': 'Santa Ana Stadium', 'type': 'Sporting', 'latitude': 33.7506, 'longitude': -117.8775, 'neighborhood': 'Downtown Santa Ana'}], 'query_summary': 'Attraction search results in CA. attraction type(s): [Sporting].\nThere are 17 attractions that matched this query!')}, {'assistant': 'attraction_name': 'Santa Ana Stadium', 'type': 'Sporting',"
+152,"assistant: Hello! What brings you here today? Are you looking for a quick weekend getaway or a longer vacation?
+user: I'm planning a trip to NV and I want to find some Touristy attractions.
+assistant: NV has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible. What are some popular Touristy spots in NV?
+assistant: There are several. Let me see what I can find for you.
+user: Great, thanks!","attractions = search_attractions(state=""NV"", type=[""Touristy""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")"," 'Hello! What are some popular Historical attractions.""}, {'assistant':'There are several. Let me see what I can find for you.'}, {'assistant':'I'm planning a trip to NV and I want to find some Historical attractions.""}, {'assistant':'There are several. Let me see what I can find for you.'}, {'assistant':'I'm planning a trip to NV and I want to find some Historical attractions.""}, {'assistant':'There are"
+153,"assistant: Hello! Are you looking for a unique experience? I can help you find some hidden gems in Raleigh.
+user: Yeah, I'm thinking of visiting some Social attractions in Raleigh.
+assistant: Raleigh has a lot of great Social spots. Have you considered Downtown Raleigh?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Social attractions. I can give you some insider tips.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Raleigh"", type=[""Social""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Raleigh""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," 'Hello! Are you looking for a unique experience? I can help you find some hidden gems in Raleigh.} 
+
+assistant': 'Hello! Are you looking for a unique experience? I can help you find some hidden gems in Raleigh.} 
+
+assistant': 'Hello! Are you looking for a unique experience? I can help you find some hidden gems in Raleigh.} 
+
+assistant': 'Hello! Are you looking for a unique experience? I can help you find some hidden gems in Raleigh."
+156,"assistant: Hi, how can I help you today? Are you looking for a short or long trip?
+user: I'm looking for Social attractions in OR.
+assistant: OR has a rich history and culture. What specific type of Social attractions are you interested in?
+user: I'm not sure, just give me all for now
+assistant: Okay, let me see what I can find for you. Are you open to visiting different cities in OR?
+user: Yes, I am. Infact, I am thinking of going to Portland for sure.","attractions = search_attractions(type=[""Social""], state=""OR"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, city=""Portland"")
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," ""I'm not sure, just give me all for now""}, {'assistant':'Okay, let me see what I can find for you. Are you open to visiting different cities in OR?'}, {'assistant':'Yes, I am. Infact, I am thinking of going to Portland for sure.'}]
+
+assistant: ""I'm not sure, just give me all for now""}, {'assistant':'Okay, let me see what I can find for you. Are you open to visiting"
+159,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Guided attractions in Tucson.
+assistant: Tucson has a lot of great Guided spots. Have you considered Downtown Tucson?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Guided attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Tucson"", type=[""Guided""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Tucson""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")","'Tucson has a lot of great Guided spots. Have you considered Downtown Tucson?'}], {'assistant':'Tucson has a lot of great Guided spots. I can give you some recommendations.'}, {'assistant':'Yeah, I'm of course visiting some Guided attractions in Tucson. I can give you some recommendations.'}, {'assistant':'Tucson has a lot of great Guided spots. Have you considered Downtown Tucson?'}], {'assistant':'Yes, I'm of course visiting"
+16,"assistant: Hello! What kind of attractions are you looking for? Are you interested in history, art, or something else?
+user: I'm interested in Historical and Guided attractions in OR.
+assistant: OR has a lot to offer. Are you looking at specific cities or regions?
+user: Yeah, I'm thinking of visiting Atlanta and Anchorage.
+assistant: Both Atlanta and Anchorage have great Historical and Guided attractions. Let me tell you about some of them.
+user: That sounds great.","attractions = search_attractions(type=[""Historical"", ""Guided""], state=""OR"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions1 = filter_attractions(prior_results=attractions, city=""Atlanta"")
+filtered_attractions2 = filter_attractions(prior_results=attractions, city=""Anchorage"")
+save_to_cache(key=""filtered_attractions1"", value=filtered_attractions1)
+save_to_cache(key=""filtered_attractions2"", value=filtered_attractions2)
+filtered_attractions1 = get_results_from_cache(key=""filtered_attractions1"")
+filtered_attractions2 = get_results_from_cache(key=""filtered_attractions2"")"," 'Portland','state': 'OR', 'attraction_name': 'Pitto', 'type': 'Culinary', 'latitude': 45.525, 'longitude': -122.71638889, 'neighborhood': 'Downtown Portland'}], query_summary='Attraction search results in OR. attraction type(s): [Culinary, Culinary].\n\nAdditionally filtering for city: Anchorage.'), 'filtered_attractions2': SearchResultsOutputModel(search_results=[], query"
+160,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Touristy attractions in Atlanta.
+assistant: Atlanta has a lot of great Touristy spots. Have you considered Midtown Atlanta?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Touristy attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Atlanta"", type=[""Touristy""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Midtown Atlanta""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+attractions = get_results_from_cache(key=""attractions"")",search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results': '
+162,"assistant: Hello! What brings you here today?
+user: I'm planning a trip to TX and I want to find some Art and Scenic attractions.
+assistant: TX has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible.
+assistant: Anything else I can help you with
+user: No, Thanks","attractions = search_attractions(state=""TX"", type=[""Art"", ""Scenic""])
+save_to_cache(key=""attractions"", value=attractions)"," {
+    ""attractions"": [
+        {""attraction_name"": ""The Menil Collection"", ""type"": ""Guided"", ""latitude"": 29.73722222, ""longitude"": -95.39861111, ""neighborhood"": ""Montrose""},
+        {""attraction_name"": ""The Menil Collection"", ""type"": ""Guided"", ""latitude"": 29.73722222, ""longitude"": -95.39861111, ""neighborhood"": ""Montrose""},
+       "
+166,"assistant: Hello! What kind of attractions are you looking for? Are you interested in history, art, or something else?
+user: I'm interested in Historical and Scenic attractions in TX.
+assistant: TX has a lot to offer. Are you looking at specific cities or regions?
+user: Yeah, I'm thinking of visiting Raleigh and St. Louis.
+assistant: Both Raleigh and St. Louis have great Historical and Scenic attractions. Let me tell you about some of them.
+user: That sounds great.","attractions = search_attractions(type=[""Historical"", ""Scenic""], state=""TX"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions1 = filter_attractions(prior_results=attractions, city=""Raleigh"")
+filtered_attractions2 = filter_attractions(prior_results=attractions, city=""St. Louis"")
+save_to_cache(key=""filtered_attractions1"", value=filtered_attractions1)
+save_to_cache(key=""filtered_attractions2"", value=filtered_attractions2)
+filtered_attractions1 = get_results_from_cache(key=""filtered_attractions1"")
+filtered_attractions2 = get_results_from_cache(key=""filtered_attractions2"")"," 
+The user is looking for attractions in Texas. The conversation is about Historical and Scenic attractions in TX. The assistant recommends several attractions that match the query. 
+
+Here is the search results: 
+{'attractions': [{'city': 'Houston','state': 'TX', 'attraction_name': 'Houston Arboretum and Nature Center', 'type': 'Scenic', 'latitude': 29.7652, 'longitude': -95.452, 'neighborhood': 'River"
+167,"assistant: Hello! What brings you here today? Are you looking for a quick weekend getaway or a longer vacation?
+user: I'm planning a trip to GA and I want to find some Touristy attractions.
+assistant: GA has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible. What are some popular Touristy spots in GA?
+assistant: There are several. Let me see what I can find for you.
+user: Great, thanks!","attractions = search_attractions(state=""GA"", type=[""Touristy""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")"," ""I'm planning a trip to GA and I want to find some Touristy attractions.""}, {'assistant':'Hello! What you here today? Are you looking for a quick weekend getaway or a longer vacation?'}, {'assistant':'There are several. Let me see what I can find for you.'}, {'assistant':'Great, thanks!'}]
+
+# Search
+{'attractions': SearchResultsOutputModel(search_results=[{'Unnamed: 0': 377, 'city': '"
+168,"assistant: Hello! Are you looking for a unique experience? I can help you find some hidden gems in Portland.
+user: Yeah, I'm thinking of visiting some Sporting attractions in Portland.
+assistant: Portland has a lot of great Sporting spots. Have you considered Downtown Portland?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Sporting attractions. I can give you some insider tips.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Portland"", type=[""Sporting""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Portland""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," 'Portland has a lot of great Sporting spots. Have you considered Downtown Portland.'}, {'assistant':'Portland has a lot of great Sporting spots. I can give you some insider information about Portland.}'
+
+assistant: 'Portland has a lot of great Sporting spots. Have you considered Downtown Portland.}'}, {'assistant':'Portland has a lot of great Sporting spots. I can give you some insider information about Portland.}'
+
+assistant: 'Portland has a lot of great Sporting spots. I"
+169,"assistant: Hi there! How can I assist you? Are you looking for something historic or modern?
+user: I'm looking for some Scenic attractions in Anchorage.
+assistant: We have a lot of great Scenic spots in Anchorage. Are you interested in anything specific?
+user: Not really
+assistant: Okay, let me give you some recommendations. Have you considered Spenard?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Anchorage"", type=[""Scenic""])
+save_to_cache(key=""attractions"", value=attractions)
+neighborhood_attractions = filter_attractions(prior_results=get_results_from_cache(key=""attractions""), neighborhood=[""Spenard""])
+save_to_cache(key=""neighborhood_attractions"", value=neighborhood_attractions)","'search_results':'search_results', 'neighborhood': 'Spenard', 'latitude': 61.22055556, 'longitude': -149.8975, 'neighborhood': 'Fairview',}, {'user': "" I'm looking for some Scenic attractions in Anchorage. attraction type(s): [Scenic].\nThere are 4 attractions that matched this query!'), 'neighborhood': 'Spenard', 'latitude': 61.22055556"
+171,"assistant: Hi, how can I help you today? Are you looking for a short or long trip?
+user: I'm looking for Cultural attractions in MO.
+assistant: MO has a rich history and culture. What specific type of Cultural attractions are you interested in?
+user: I'm not sure, just give me all for now
+assistant: Okay, let me see what I can find for you. Are you open to visiting different cities in MO?
+user: Yes, I am. Infact, I am thinking of going to St. Louis for sure.","attractions = search_attractions(type=[""Cultural""], state=""MO"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, city=""St. Louis"")
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)","'searchResultsOutputModel(search_results=[{'Unnamed: 0': 391, 'city': 'Kansas City','state': 'MO', 'attraction_name': 'National of Toys and Miniatures', 'type': 'Cultural', 'latitude': 39.0308, 'longitude': -94.5822, 'neighborhood': 'West'}], query_summary='Attraction search results in MO. attraction type(s): [Cultural].\nThere are 1"
+172,"assistant: Hello! How can I assist you?
+user: I'm planning a trip to CA and I want to find some Touristy attractions.
+assistant: CA has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible. Give me anything
+assistant: There are several. Let me see what I can find for you.
+user: Great, thanks!","attractions = search_attractions(state=""CA"", type=[""Touristy""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")"," 'I'm looking for attractions in the area around the city or region.', 'attraction_name': 'Aquatica San Diego', 'type': 'Touristy', 'latitude': 32.5884, 'longitude': -117.0101, 'neighborhood': 'Rancho del Rey'}], query_summary='Attraction search results in CA. attraction type(s): [Touristy].\nThere are 14 attractions that matched this query!')}
+
+assistant: 'I'm"
+173,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Scenic attractions in Atlanta.
+assistant: Atlanta has a lot of great Scenic spots. Have you considered Midtown Atlanta?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Scenic attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Atlanta"", type=[""Scenic""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Midtown Atlanta""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")","'search_results': SearchResultsOutputModel(search_results=[{'Unnamed: 0': 379, 'city': 'Atlanta','state': 'GA', 'attraction_name': 'Piedmont Park', 'type': 'Scenic', 'latitude': 33.78611111, 'longitude': -84.37333333, 'neighborhood': 'Midtown Atlanta'}], query_summary='Attraction search results in Atlanta. attraction type(s): [Scenic].\n"
+175,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Historical attractions in Colorado Springs.
+assistant: Colorado Springs has a lot of great Historical spots. Have you considered Downtown Colorado Springs?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Historical attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Colorado Springs"", type=[""Historical""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Colorado Springs""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+attractions = get_results_from_cache(key=""attractions"")","'search_results':'search_results':'search_results':'search_results':'search_results':'search_results': 'Colorado', 'attraction_name': 'Man Cliff Dwellings', 'type': 'Historical', 'latitude': 38.9985, 'longitude': -104.8541, 'neighborhood': 'Man Cliff Dwellings', 'type': 'Historical', 'latitude': 38.9985, 'longitude': -104.8541,"
+179,"assistant: Hi, how can I help you today?
+user: I'm looking for Cultural attractions in TN.
+assistant: TN has a rich history and culture. What specific type of Cultural attractions are you interested in?
+user: I'm not sure, just something interesting.
+assistant: Okay, let me see what I can find for you. Are you open to visiting different cities in TN?
+user: Yes, I am. Infact, I am thinking of going to Atlanta.","attractions = search_attractions(type=[""Cultural""], state=""TN"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, city = ""Atlanta"")
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," ""The search results in TN are attractions that matched this query!'), 'filtered_attractions': SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in TN. attraction type(s): [Guided].\nThere are 5 attractions that matched this query!'), 'filtered_attractions': SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in TN. attraction type(s): [Guided].\nThere are 5 attractions that matched this query!'),"
+18,"assistant: Hello! Are you looking for a unique experience? I can help you find some hidden gems in Memphis.
+user: Yeah, I'm thinking of visiting some Cultural attractions in Memphis.
+assistant: Memphis has a lot of great Cultural spots. Have you considered Downtown Memphis?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Cultural attractions. I can give you some insider tips.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Memphis"", type=[""Cultural""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Memphis""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)","'search_results': SearchResultsOutputModel(search_results=[{'Unnamed: 0': 313, 'city': 'Memphis','state': 'TN', 'attraction_name': 'Stax Museum of American Soul Music', 'type': 'Sporting', 'latitude': 35.115976, 'longitude': -90.031456, 'neighborhood': 'Downtown Memphis'}], query_summary='Attraction search results in Memphis. attraction type(s): [Sporting]."
+181,"assistant: Hello! What kind of attractions are you looking for? Are you interested in history, art, or something else?
+user: I'm interested in Sporting and Cultural attractions in TX.
+assistant: TX has a lot to offer. Are you looking at specific cities or regions?
+user: Yeah, I'm thinking of visiting Fresno and Memphis.
+assistant: Both Fresno and Memphis have great Sporting and Cultural attractions. Let me tell you about some of them.
+user: That sounds great.","attractions = search_attractions(type=[""Sporting"", ""Cultural""], state=""TX"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions1 = filter_attractions(prior_results=attractions, city=""Fresno"")
+filtered_attractions2 = filter_attractions(prior_results=attractions, city=""Memphis"")
+save_to_cache(key=""filtered_attractions1"", value=filtered_attractions1)
+save_to_cache(key=""filtered_attractions2"", value=filtered_attractions2)
+filtered_attractions1 = get_results_from_cache(key=""filtered_attractions1"")
+filtered_attractions2 = get_results_from_cache(key=""filtered_attractions2"")"," 1
+user: 1
+assistant: 1
+assistant: 1
+assistant: 1
+assistant: 1
+assistant: 1
+assistant: 1
+assistant: 1
+assistant: 1
+assistant: 1
+assistant: 1
+assistant: 1
+assistant: 1
+assistant: 1
+assistant: 1
+assistant: 1
+assistant: 1
+assistant: 1
+assistant: 1
+assistant:"
+182,"assistant: Hello! What brings you here today? Are you looking for a quick weekend getaway or a longer vacation?
+user: I'm planning a trip to CA and I want to find some Social attractions.
+assistant: CA has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible. What are some popular Social spots in CA?
+assistant: There are several. Let me see what I can find for you.
+user: Great, thanks!","attractions = search_attractions(state=""CA"", type=[""Social""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")"," 'What are some popular Culinary spots in CA. attraction type(s): [Culinary].'
+user: 'I am looking for a quick weekend getaway or a longer vacation?'}, {'assistant':'CA has a lot to offer. Are you looking at a specific city or region?'}, {'assistant':'There are several. Let me see what I can find for you.'}, {'assistant':'I am planning a trip to CA and I want to find some Culinary attractions.'}, {'assistant':"
+184,"assistant: Hi there! How can I assist you? Are you looking for something historic or modern?
+user: I'm looking for some Historical attractions in Portland.
+assistant: We have a lot of great Historical spots in Portland. Are you interested in anything specific?
+user: Not really
+assistant: Okay, let me give you some recommendations. Have you considered Pearl District?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Portland"", type=[""Historical""])
+save_to_cache(key=""attractions"", value=attractions)
+neighborhood_attractions = filter_attractions(prior_results=get_results_from_cache(key=""attractions""), neighborhood=[""Pearl District""])
+save_to_cache(key=""neighborhood_attractions"", value=neighborhood_attractions)"," 'neighborhood': 'Portland','state': 'OR', 'attraction_name': 'Pittock Mansion', 'type': 'Historical', 'latitude': 45.525, 'longitude': -122.71638889, 'neighborhood': 'Pearl District'}], query_summary='Attraction search results in Portland. attraction type(s): [Historical].\nThere are 1 attractions that matched this query!')}
+
+assistant: 'neighborhood': 'Portland',"
+185,"assistant: Hi there! How can I assist you? Are you looking for something local or international?
+user: I'm looking for some Sporting attractions in San Jose.
+assistant: We have a lot of great Sporting spots in San Jose. Are you interested in anything specific?
+user: Not really
+assistant: Okay, let me give you some recommendations. Have you considered Willow Glen?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""San Jose"", type=[""Sporting""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+neighborhood_attractions = filter_attractions(prior_results=get_results_from_cache(key=""attractions""), neighborhood=[""Willow Glen""])
+save_to_cache(key=""neighborhood_attractions"", value=neighborhood_attractions)",'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':'search_results':
+188,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Scenic attractions in Lexington.
+assistant: Lexington has a lot of great Scenic spots. Have you considered Downtown Lexington?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Scenic attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Lexington"", type=[""Scenic""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Lexington""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")"," 'Hello! Are you looking for something to do in your free time?'}, {'assistant':'I'm thinking of visiting some Historical spots. Have you considered Downtown Lexington, as well as the provided search results in Lexington. attraction type(s): [Historical].\n\nAdditionally filtering for neighborhood(s): [Downtown Lexington].']'
+
+assistant: 'Hello! Are you looking for something to do in your free time?'}, {'assistant':'I'm thinking of visiting some Historical"
+191,"assistant: Hi there! How can I assist you?
+user: I'm looking for some Sporting attractions in Fresno.
+assistant: We have a lot of great Sporting spots in Fresno. Are you interested in anything specific?
+user: Not really, just something fun.
+assistant: Okay, let me give you some recommendations. Have you considered Tower District?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Fresno"", type=[""Sporting""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Tower District""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," 'SearchResultsOutputModel(search_results=[{'Unnamed: 0': 359, 'city': 'Fresno','state': 'CA', 'attraction_name': 'Save Mart Center', 'type': 'Sporting', 'latitude': 36.809611, 'longitude': -119.738611, 'neighborhood': 'Downtown',]}], query_summary='Attraction search results in Fresno. attraction type(s): [Sporting].\n\nAdditionally filtering for"
+192,"assistant: Hello! What brings you here today?
+user: I'm planning a trip to GA and I want to find some Guided and Historical attractions.
+assistant: GA has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible.
+assistant: Anything else I can help you with
+user: No, Thanks","attractions = search_attractions(state=""GA"", type=[""Guided"", ""Historical""])
+save_to_cache(key=""attractions"", value=attractions)","'Hello! What you are looking at a specific city or region?'}, {'assistant':'Yes'}]
+
+# SearchResultsOutputModel(search_results=[{'Unnamed: 0': 378, 'city': 'Atlanta','state': 'GA', 'attraction_name': 'Martin Luther King', 'type': 'Historical', 'latitude': 33.755, 'longitude': -84.37222222, 'neighborhood': 'Inman', }], query_summary='Attr"
+193,"assistant: Hi there! How can I assist you?
+user: I'm looking for some Touristy attractions in Las Vegas.
+assistant: We have a lot of great Touristy spots in Las Vegas. Are you interested in anything specific?
+user: Not really, just something fun.
+assistant: Okay, let me give you some recommendations. Have you considered Summerlin?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Las Vegas"", type=[""Touristy""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Summerlin""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," ""I'm looking for some Touristy attractions in Las Vegas. Are you interested in anything specific?'}, {'assistant':'We have a lot of great Touristy attractions in Las Vegas. Are you interested in anything specific?'}, {'assistant':'Not really, just something.'}, {'assistant':'Okay, let me give you some recommendations. Have you considered Summerlin','}], query_summary='Attraction search results in Las Vegas. attraction type(s): [Touristy].\nThere"
+198,"assistant: Hello! Are you looking for a unique experience? I can help you find some hidden gems in Tucson.
+user: Yeah, I'm thinking of visiting some Guided attractions in Tucson.
+assistant: Tucson has a lot of great Guided spots. Have you considered Downtown Tucson?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Guided attractions. I can give you some insider tips.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Tucson"", type=[""Guided""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Tucson""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)","'Tucson has a lot of great Scenic spots. Have you considered Downtown Tucson. What's there?'}, {'assistant':'Tucson has a lot of great Scenic spots. Have you considered Downtown Tucson. What's there?'}, {'assistant':'I'm thinking of visiting some Scenic attractions. I can give you some insider information.'}, {'assistant':'What's there?'}, {'assistant':'It's a great area with a lot of Scenic spots. Have you considered Downtown"
+2,"assistant: Hello! What brings you here today? Are you looking for a quick weekend getaway or a longer vacation?
+user: I'm planning a trip to OR and I want to find some Culinary attractions.
+assistant: OR has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible. What are some popular Culinary spots in OR?
+assistant: There are several. Let me see what I can find for you.
+user: Great, thanks!","attractions = search_attractions(state=""OR"", type=[""Culinary""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")","'Yes, I'm planning a trip to OR and I want to find some Culinary.'}, {'assistant':'There are several. Let me see what I can find for you.'}, {'assistant':'There are several. Let me see what I can find for you.'}, {'assistant':'There are several. Let me see what I can find for you.'}, {'assistant':'There are several. Let me see what I can find for you.'}, {'assistant': '"
+20,"assistant: Hi there! How can I assist you? Are you looking for something local or international?
+user: I'm looking for some Social attractions in Las Vegas.
+assistant: We have a lot of great Social spots in Las Vegas. Are you interested in anything specific?
+user: Not really
+assistant: Okay, let me give you some recommendations. Have you considered Summerlin?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Las Vegas"", type=[""Social""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+neighborhood_attractions = filter_attractions(prior_results=get_results_from_cache(key=""attractions""), neighborhood=[""Summerlin""])
+save_to_cache(key=""neighborhood_attractions"", value=neighborhood_attractions)"," 'neighborhood': 'Summerlin', 'type': 'Culinary', 'latitude': 36.1175, 'longitude': -115.14416667, 'neighborhood': 'Summerlin',}, {'Unnamed: 0': 270, 'city': 'Las Vegas','state': 'NV', 'attraction_name': 'The LINQ Promenade', 'type': 'Culinary', 'latitude': 36.1175, 'longitude': -115.14416667"
+201,"assistant: Hi, how can I help you today? Are you looking for a short or long trip?
+user: I'm looking for Culinary attractions in AK.
+assistant: AK has a rich history and culture. What specific type of Culinary attractions are you interested in?
+user: I'm not sure, just give me all for now
+assistant: Okay, let me see what I can find for you. Are you open to visiting different cities in AK?
+user: Yes, I am. Infact, I am thinking of going to Anchorage for sure.","attractions = search_attractions(type=[""Culinary""], state=""AK"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, city=""Anchorage"")
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)","'Yes, I am. Infact, I am thinking of going to Anchorage for sure.'}]
+
+assistant:'Yes, I am. Infact, I am thinking of going to Anchorage for sure.'}]
+
+assistant:'Yes, I am. Infact, I am thinking of going to Anchorage for sure.'}]
+
+assistant:'Yes, I am. Infact, I am thinking of going to Anchorage for sure.'}]
+
+assistant:'Yes, I"
+204,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Cultural attractions in St. Louis.
+assistant: St. Louis has a lot of great Cultural spots. Have you considered Downtown St. Louis?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Cultural attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""St. Louis"", type=[""Cultural""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown St. Louis""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")","'Hello! Are you looking for something to do in your free time?'}, {'assistant':'I'm not really. What's there?'}, {'assistant':'What's there?'}, {'assistant':'It's a great area with a lot of Cultural attractions. I can give you some recommendations.""}, {'assistant':'St. Louis has a lot of great Cultural attractions. Have you considered Downtown St. Louis.'}, {'assistant':'I'm not really. What's there?'"
+207,"assistant: Hello! What brings you here today?
+user: I'm planning a trip to TX and I want to find some Guided and Scenic attractions.
+assistant: TX has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible.
+assistant: Anything else I can help you with
+user: No, Thanks","attractions = search_attractions(state=""TX"", type=[""Guided"", ""Scenic""])
+save_to_cache(key=""attractions"", value=attractions)"," 'SearchResults', 'count': 21, 'next': 'Next', 'next': 'None', 'previous': 'None','results': [{'attraction_name': 'Houston Arboretum', 'type': 'Scenic', 'latitude': 29.760556, 'longitude': -95.000000, 'neighborhood': 'River Oaks'}, {'attraction_name': 'Houston Arboretum', 'type': 'Scenic', 'latitude': 29.765"
+211,"assistant: Hello! What kind of attractions are you looking for? Are you interested in history, art, or something else?
+user: I'm interested in Scenic and Art attractions in TX.
+assistant: TX has a lot to offer. Are you looking at specific cities or regions?
+user: Yeah, I'm thinking of visiting Fresno and San Jose.
+assistant: Both Fresno and San Jose have great Scenic and Art attractions. Let me tell you about some of them.
+user: That sounds great.","attractions = search_attractions(type=[""Scenic"", ""Art""], state=""TX"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions1 = filter_attractions(prior_results=attractions, city=""Fresno"")
+filtered_attractions2 = filter_attractions(prior_results=attractions, city=""San Jose"")
+save_to_cache(key=""filtered_attractions1"", value=filtered_attractions1)
+save_to_cache(key=""filtered_attractions2"", value=filtered_attractions2)
+filtered_attractions1 = get_results_from_cache(key=""filtered_attractions1"")
+filtered_attractions2 = get_results_from_cache(key=""filtered_attractions2"")"," 
+Your request was to recommend several attractions that best match users' travel interests and preferences. 
+Here is the list of attractions that matched the query: 
+1. The Menil Collection - Contemporary Art Museum
+2. The Contemporary Arts Museum
+3. The Contemporary Arts Museum
+4. The Menil Collection - Contemporary Art Museum
+5. The Contemporary Arts Museum
+6. The Museum of Fine Arts
+7. The Menil Collection - Contemporary Art Museum
+8. The Contemporary Arts Museum"
+212,"assistant: Hello! What brings you here today? Are you looking for a quick weekend getaway or a longer vacation?
+user: I'm planning a trip to NC and I want to find some Scenic attractions.
+assistant: NC has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible. What are some popular Scenic spots in NC?
+assistant: There are several. Let me see what I can find for you.
+user: Great, thanks!","attractions = search_attractions(state=""NC"", type=[""Scenic""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")"," ""I'm planning a trip to NC and I want to find some Scenic spots in NC. attraction type(s): [Scenic].\nThere are 6 attractions that matched this query!')}
+
+assistant: ""I'm planning a trip to NC and I want to find some Scenic spots in NC. attraction type(s): [Scenic].\nThere are 6 attractions that matched this query!')}
+
+assistant: ""I'm planning a trip to NC and I want to"
+213,"assistant: Hello! Are you looking for a unique experience? I can help you find some hidden gems in San Jose.
+user: Yeah, I'm thinking of visiting some Touristy attractions in San Jose.
+assistant: San Jose has a lot of great Touristy spots. Have you considered Downtown San Jose?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Touristy attractions. I can give you some insider tips.
+user: Okay, that sounds good.","attractions = search_attractions(city=""San Jose"", type=[""Touristy""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown San Jose""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," 'filtered_attractions': SearchResultsOutputModel(search_results=[{'Unnamed: 0': 137, 'city': 'San Jose','state': 'CA', 'attraction_name': 'The Tech Museum of Innovation', 'type': 'Touristy', 'latitude': 37.32668, 'longitude': -121.8907276, 'neighborhood': 'Downtown San Jose'}], query_summary='Attraction search results in San Jose. attraction type(s): [Tour"
+215,"assistant: Hi there! How can I assist you? Are you looking for something local or international?
+user: I'm looking for some Touristy attractions in Colorado Springs.
+assistant: We have a lot of great Touristy spots in Colorado Springs. Are you interested in anything specific?
+user: Not really
+assistant: Okay, let me give you some recommendations. Have you considered Old Colorado City?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Colorado Springs"", type=[""Touristy""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+neighborhood_attractions = filter_attractions(prior_results=get_results_from_cache(key=""attractions""), neighborhood=[""Old Colorado City""])
+save_to_cache(key=""neighborhood_attractions"", value=neighborhood_attractions)","'search_results': SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in Colorado Springs. attraction type(s): [Touristy].\n\nAdditionally filtering for neighborhood(s): [Old Colorado City].')}
+
+assistant:'search_results': SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in Colorado Springs. attraction type(s): [Touristy].\n\nAdditionally filtering for neighborhood(s): [Old Colorado City].')}
+
+assistant:'search_results':"
+216,"assistant: Hi, how can I help you today? Are you looking for a short or long trip?
+user: I'm looking for Social attractions in AK.
+assistant: AK has a rich history and culture. What specific type of Social attractions are you interested in?
+user: I'm not sure, just give me all for now
+assistant: Okay, let me see what I can find for you. Are you open to visiting different cities in AK?
+user: Yes, I am. Infact, I am thinking of going to Anchorage for sure.","attractions = search_attractions(type=[""Social""], state=""AK"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, city=""Anchorage"")
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," 'filtered_attractions': SearchResultsOutputModel(search_results=[{'Unnamed: 0': 647, 'city': 'Anchorage','state': 'AK', 'attraction_name': 'Anchorage 5th Avenue Mall', 'type': 'Social', 'latitude': 61.21833333, 'longitude': -149.88861111, 'neighborhood': 'Spenard'}], query_summary='Attraction search results in AK. attraction type(s):"
+218,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Social attractions in Memphis.
+assistant: Memphis has a lot of great Social spots. Have you considered Downtown Memphis?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Social attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Memphis"", type=[""Social""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Memphis""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")"," ""I'm looking for something to do in your free time?'}, {'assistant':'Memphis has a lot of great Social spots. I can give you some recommendations.""}, {'assistant':'Memphis has a lot of great Social spots. I can give you some recommendations.""}, {'assistant':'Memphis has a lot of great Social spots. I can give you some recommendations.""}, {'assistant':'Memphis has a lot of great Social spots. I can give you some recommendations.""}, {'assistant"
+220,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Sporting attractions in San Jose.
+assistant: San Jose has a lot of great Sporting spots. Have you considered Downtown San Jose?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Sporting attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""San Jose"", type=[""Sporting""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown San Jose""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+attractions = get_results_from_cache(key=""attractions"")","'Hello! Are you looking for something to do in your free time?'}, {'assistant':'Yeah, I'm of course visiting some Sporting attractions in San Jose. I can give you some recommendations.'}, {'assistant':'I'm of course visiting some Sporting attractions in San Jose. I can give you some recommendations.'}, {'assistant':'Yeah, I'm of course visiting some Sporting attractions in San Jose. I can give you some recommendations.'}, {'assistant':'I'm of course"
+222,"assistant: Hello! What brings you here today?
+user: I'm planning a trip to CA and I want to find some Touristy and Sporting attractions.
+assistant: CA has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible.
+assistant: Anything else I can help you with
+user: No, Thanks","attractions = search_attractions(state=""CA"", type=[""Touristy"", ""Sporting""])
+save_to_cache(key=""attractions"", value=attractions)"," 
+Your request was to recommend several attractions that best match the user's travel interests and preferences. I will now display the list of attractions that match the user's search results.
+
+Search Results
+----------------
+
+1.  Dodger Stadium
+2.  Dodger Stadium
+3.  Angel Stadium
+4.  Angel Stadium
+5.  Petco Park
+6.  Petco Park
+7.  Qualcomm Stadium
+8.  Los Angeles Memorial Coliseum
+9.  Rose Bowl"
+223,"assistant: Hi there! How can I assist you?
+user: I'm looking for some Scenic attractions in Portland.
+assistant: We have a lot of great Scenic spots in Portland. Are you interested in anything specific?
+user: Not really, just something fun.
+assistant: Okay, let me give you some recommendations. Have you considered Pearl District?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Portland"", type=[""Scenic""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Pearl District""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)","'search_results']} 
+# SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in Portland. attraction type(s): [Scenic].\n\nAdditionally filtering for neighborhood(s): [Pearl District].')}
+
+assistant:'search_results']} 
+# SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in Portland. attraction type(s): [Scenic].\n\nAdditionally filtering for neighborhood(s): [Pearl District].')}
+
+assistant:"
+23,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Cultural attractions in Anchorage.
+assistant: Anchorage has a lot of great Cultural spots. Have you considered Downtown Anchorage?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Cultural attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Anchorage"", type=[""Cultural""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Anchorage""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")","'Hello! Are you looking for something to do in your free time?'}, {'assistant':'Yeah, I'm thinking of visiting some Cultural attractions in Anchorage. I can give you some recommendations.'}, {'assistant':'Okay, that sounds good.'}]
+
+# Search Results
+{'attractions': SearchResultsOutputModel(search_results=[{'Unnamed: 0': 645, 'city': 'Anchorage','state': 'AK', 'attraction_name': 'Anch"
+24,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Scenic attractions in San Antonio.
+assistant: San Antonio has a lot of great Scenic spots. Have you considered Downtown San Antonio?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Scenic attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""San Antonio"", type=[""Scenic""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown San Antonio""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")"," 'SearchResults', 'type': 'Scenic', 'latitude': 37.770122, 'longitude': -122.470231, 'neighborhood': 'King William'}], query_summary='Attraction search results in San Antonio. attraction type(s): [Scenic].\nThere are 4 attractions that matched this query!'), 'filtered_attractions': SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in San Antonio. attraction type(s): [Scenic"
+25,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Guided attractions in San Antonio.
+assistant: San Antonio has a lot of great Guided spots. Have you considered Downtown San Antonio?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Guided attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""San Antonio"", type=[""Guided""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown San Antonio""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+attractions = get_results_from_cache(key=""attractions"")","'Hello! Are you looking for something to do in your free time?'}, {'assistant':'San Antonio has a lot of great Guided spots. Have you considered Downtown San Antonio.?'}, {'assistant':'It's a great area with a lot of Guided attractions. I can give you some recommendations.'}, {'assistant':'San Antonio has a lot of great Guided spots. Have you considered Downtown San Antonio.?'}, {'assistant':'It's a great area with a"
+26,"assistant: Hi there! How can I assist you?
+user: I'm looking for some Social attractions in Colorado Springs.
+assistant: We have a lot of great Social spots in Colorado Springs. Are you interested in anything specific?
+user: Not really, just something fun.
+assistant: Okay, let me give you some recommendations. Have you considered Old Colorado City?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Colorado Springs"", type=[""Social""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Old Colorado City""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," 'filtered_attractions': SearchResultsOutputModel(search_results=[{'Unnamed: 0': 399, 'city': 'Colorado','state': 'CO', 'attraction_name': 'Old Colorado City', 'type': 'Social', 'latitude': 38.8467, 'longitude': -104.8619, 'neighborhood': 'Old Colorado City'}], query_summary='Attraction search results in Colorado Springs. attraction type(s): [Social].\nThere are "
+3,"assistant: Hello! Are you looking for a unique experience? I can help you find some hidden gems in St. Louis.
+user: Yeah, I'm thinking of visiting some Art attractions in St. Louis.
+assistant: St. Louis has a lot of great Art spots. Have you considered Downtown St. Louis?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Art attractions. I can give you some insider tips.
+user: Okay, that sounds good.","attractions = search_attractions(city=""St. Louis"", type=[""Art""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown St. Louis""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," 'Hello! Are you looking for a unique experience? I can help you find some hidden gems in St. Louis.'}, {'assistant':'St. Louis has a lot of great Social spots. Have you considered Downtown St. Louis?'}, {'assistant':'It's a great area with a lot of Social attractions. I can give you some insider information.'}]
+
+# Search Results
+{'attractions': SearchResultsOutputModel(search_results=[{'Unnamed: 0': 658, '"
+31,"assistant: Hello! What kind of attractions are you looking for? Are you interested in history, art, or something else?
+user: I'm interested in Culinary and Art attractions in AZ.
+assistant: AZ has a lot to offer. Are you looking at specific cities or regions?
+user: Yeah, I'm thinking of visiting San Antonio and Memphis.
+assistant: Both San Antonio and Memphis have great Culinary and Art attractions. Let me tell you about some of them.
+user: That sounds great.","attractions = search_attractions(type=[""Culinary"", ""Art""], state=""AZ"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions1 = filter_attractions(prior_results=attractions, city=""San Antonio"")
+filtered_attractions2 = filter_attractions(prior_results=attractions, city=""Memphis"")
+save_to_cache(key=""filtered_attractions1"", value=filtered_attractions1)
+save_to_cache(key=""filtered_attractions2"", value=filtered_attractions2)
+filtered_attractions1 = get_results_from_cache(key=""filtered_attractions1"")
+filtered_attractions2 = get_results_from_cache(key=""filtered_attractions2"")"," 'Hello! What kind of attractions are you looking for? Are you interested in history, art, or something else?'}, {'user': "" I'm interested in Culinary, Art attractions in AZ.'}, {'assistant':'Hello! What kind of attractions are you looking for? Are you interested in history, art, or something else?'}, {'user': "" I'm interested in Culinary, Art attractions in AZ.'}, {'assistant':'Hello! What kind of attractions are you looking"
+35,"assistant: Hi there! How can I assist you? Are you looking for something local or international?
+user: I'm looking for some Sporting attractions in Anchorage.
+assistant: We have a lot of great Sporting spots in Anchorage. Are you interested in anything specific?
+user: Not really
+assistant: Okay, let me give you some recommendations. Have you considered Spenard?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Anchorage"", type=[""Sporting""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+neighborhood_attractions = filter_attractions(prior_results=get_results_from_cache(key=""attractions""), neighborhood=[""Spenard""])
+save_to_cache(key=""neighborhood_attractions"", value=neighborhood_attractions)","'I'm looking for some Art attractions in Anchorage. Are you interested in anything specific?'}, {'assistant':'We have a lot of great Art spots in Anchorage. Are you interested in anything specific?'}, {'assistant':'Not really. What's there?'}
+
+assistant:'I'm looking for some Art attractions in Anchorage. Are you interested in anything specific?'}, {'assistant':'We have a lot of great Art spots in Anchorage. Are you interested in anything specific"
+36,"assistant: Hi, how can I help you today? Are you looking for a short or long trip?
+user: I'm looking for Culinary attractions in KY.
+assistant: KY has a rich history and culture. What specific type of Culinary attractions are you interested in?
+user: I'm not sure, just give me all for now
+assistant: Okay, let me see what I can find for you. Are you open to visiting different cities in KY?
+user: Yes, I am. Infact, I am thinking of going to Lexington for sure.","attractions = search_attractions(type=[""Culinary""], state=""KY"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, city=""Lexington"")
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," 'filtered_attractions': SearchResultsOutputModel(search_results=[{'Unnamed: 0': 543, 'city': 'Lexington','state': 'KY', 'attraction_name': 'Lexington Farmers Market', 'type': 'Culinary', 'latitude': 39.29189, 'longitude': -76.62175, 'neighborhood': 'Ashland Park'}], query_summary='Attraction search results in KY. attraction type(s): [Culinary]."
+37,"assistant: Hello! How can I assist you?
+user: I'm planning a trip to MO and I want to find some Scenic attractions.
+assistant: MO has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible. Give me anything
+assistant: There are several. Let me see what I can find for you.
+user: Great, thanks!","attractions = search_attractions(state=""MO"", type=[""Scenic""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")"," ""SearchResultsOutputModel(search_results=[{'Unnamed: 0': 662, 'city': 'St. Louis','state': 'MO', 'attraction_name': 'Missouri Botanical Garden', 'type': 'Scenic', 'latitude': 38.6125, 'longitude': -90.25972222, 'neighborhood': 'The Hill'}], query_summary='Attraction search results in MO. attraction type(s): [Scenic].\nThere are"
+38,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Guided attractions in Anchorage.
+assistant: Anchorage has a lot of great Guided spots. Have you considered Downtown Anchorage?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Guided attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Anchorage"", type=[""Guided""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Anchorage""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")","'search results in Anchorage. attraction type(s): [Guided].', 'filtered_attractions': SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in Anchorage. attraction type(s): [Guided].', 'filtered_attractions': SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in Anchorage. attraction type(s): [Guided].', 'filtered_attractions': SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in"
+39,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Culinary attractions in Memphis.
+assistant: Memphis has a lot of great Culinary spots. Have you considered Downtown Memphis?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Culinary attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Memphis"", type=[""Culinary""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Memphis""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")"," ""Memphis has a lot of great Cul attractions. I can give you some recommendations.""}, {'assistant': "" It's a great area with a lot of Cul attractions. I can give you some recommendations.""}, {'assistant': "" It's a great area with a lot of Cul attractions. I can give you some recommendations.""}, {'assistant': "" It's a great area with a lot of Cul attractions. I can give you some recommendations.""}, {'assistant': "" It's a great area"
+42,"assistant: Hello! What brings you here today?
+user: I'm planning a trip to CA and I want to find some Touristy and Cultural attractions.
+assistant: CA has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible.
+assistant: Anything else I can help you with
+user: No, Thanks","attractions = search_attractions(state=""CA"", type=[""Touristy"", ""Cultural""])
+save_to_cache(key=""attractions"", value=attractions)", 'Here are the attractions in California that match your search. Here are the details:\n\n\n1. Universal Studios Hollywood\n\n2. California Science Center\n\n3. Balboa Park\n\n4. San Diego Museum of Man\n\n5. Rosicrucian Egyptian Museum\n\n6. San Diego Museum of Man\n\n7. The San Diego Museum of Man\n\n8. California Science Center\n\n9. California Science Center\n\n10. Balboa Park\n\n
+49,"assistant: Hi there! How can I assist you? Are you looking for something historic or modern?
+user: I'm looking for some Scenic attractions in Portland.
+assistant: We have a lot of great Scenic spots in Portland. Are you interested in anything specific?
+user: Not really
+assistant: Okay, let me give you some recommendations. Have you considered Pearl District?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Portland"", type=[""Scenic""])
+save_to_cache(key=""attractions"", value=attractions)
+neighborhood_attractions = filter_attractions(prior_results=get_results_from_cache(key=""attractions""), neighborhood=[""Pearl District""])
+save_to_cache(key=""neighborhood_attractions"", value=neighborhood_attractions)","'searchResultsOutputModel(search_results=[{'Unnamed: 0': 300, 'city': 'Portland','state': 'OR', 'attraction_name': 'Portland', 'type': 'Touristy', 'latitude': 45.51872, 'longitude': -122.708, 'neighborhood': 'Downtown Portland'}], query_summary='Attraction search results in Portland. attraction type(s): [Touristy].\nThere are 1 attractions that matched this query"
+53,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Social attractions in Lexington.
+assistant: Lexington has a lot of great Social spots. Have you considered Downtown Lexington?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Social attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Lexington"", type=[""Social""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Lexington""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")"," ""I'm going to give you some recommendations.""}, {'assistant': "" It's a great area with a lot of Social attractions. I can give you some recommendations.""}, {'assistant': "" It's a great area with a lot of Social attractions. I can give you some recommendations.""}, {'assistant': "" It's a great area with a lot of Social attractions. I can give you some recommendations.""}, {'assistant': "" It's a great area with a lot of Social attractions. I"
+54,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Historical attractions in Atlanta.
+assistant: Atlanta has a lot of great Historical spots. Have you considered Midtown Atlanta?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Historical attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Atlanta"", type=[""Historical""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Midtown Atlanta""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")"," ""It's a great area with a lot of Guided attractions. I can give you some recommendations.""}, {'assistant': "" Yeah, I'm of course visiting some Guided attractions in Atlanta. I can give you some recommendations.""}, {'assistant': "" What's there?""}, {'assistant': "" It's a great area with a lot of Guided attractions. I can give you some recommendations.""}, {'assistant': "" Yeah, I'm of course visiting some Guided attractions in Atlanta. I can give you"
+55,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Art attractions in Las Vegas.
+assistant: Las Vegas has a lot of great Art spots. Have you considered Summerlin?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Art attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Las Vegas"", type=[""Art""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Summerlin""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+attractions = get_results_from_cache(key=""attractions"")"," "" It's a great area with a lot of Social attractions. I can give you some recommendations.""}, {'assistant': "" Yeah, I'm of course visiting some Social attractions in Las Vegas. I can give you some recommendations.""}, {'assistant': "" It's a great area with a lot of Social attractions. I can give you some recommendations.""}, {'assistant': "" Yeah, I'm of course visiting some Social attractions in Las Vegas. I can give you some recommendations.""}, {'assistant':"
+58,"assistant: Hi there! How can I assist you?
+user: I'm looking for some Historical attractions in Tucson.
+assistant: We have a lot of great Historical spots in Tucson. Are you interested in anything specific?
+user: Not really, just something fun.
+assistant: Okay, let me give you some recommendations. Have you considered 4th Avenue?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Tucson"", type=[""Historical""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""4th Avenue""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," 'SearchResultsOutputModel(search_results=[{'Unnamed: 0': 351, 'city': 'Tucson','state': 'AZ', 'attraction_name': 'El Presidio San Agustín del Tucson', 'type': 'Historical', 'latitude': 32.107, 'longitude': -110.92638889, 'neighborhood': 'Downtown Tucson'}], query_summary='Attraction search results in Tucson. attraction type(s): [Historical]."
+59,"assistant: Hi, how can I help you today?
+user: I'm looking for Historical attractions in NV.
+assistant: NV has a rich history and culture. What specific type of Historical attractions are you interested in?
+user: I'm not sure, just something interesting.
+assistant: Okay, let me see what I can find for you. Are you open to visiting different cities in NV?
+user: Yes, I am. Infact, I am thinking of going to Memphis.","attractions = search_attractions(type=[""Historical""], state=""NV"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, city = ""Memphis"")
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," 'SearchResultsOutputModel(search_results=[{'Unnamed: 0': 527, 'city': 'Henderson','state': 'NV', 'attraction_name': 'Clark County Heritage Museum', 'type': 'Sporting', 'latitude': 36.01027778, 'neighborhood': 'MacDonald Highlands',], query_summary='Attraction search results in NV. attraction type(s): [Sporting].\nThere are 1 attractions that matched this query!'],"
+6,"assistant: Hi, how can I help you today? Are you looking for a short or long trip?
+user: I'm looking for Cultural attractions in KY.
+assistant: KY has a rich history and culture. What specific type of Cultural attractions are you interested in?
+user: I'm not sure, just give me all for now
+assistant: Okay, let me see what I can find for you. Are you open to visiting different cities in KY?
+user: Yes, I am. Infact, I am thinking of going to Lexington for sure.","attractions = search_attractions(type=[""Cultural""], state=""KY"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, city=""Lexington"")
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)","'search_results': SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in KY. attraction type(s): [Culinary].', 'latitude': 38.25816667, 'longitude': -85.76005556, 'neighborhood': 'Highlands'}], query_summary='Attraction search results in KY. attraction type(s): [Culinary].', 'latitude': 38.25816667, 'longitude': -85.76005556, 'neighbor"
+60,"assistant: Hello! I'd love to help you discover new attractions. What's your favorite type of Culinary activity?
+user: I'm planning a trip to CO and I want to find some Culinary attractions.
+assistant: CO has a lot to offer. Can you tell me more about what you're looking for in a Culinary experience?
+user: Not really, just something exciting.
+assistant: Let me ask you this: are you open to trying new things or do you prefer more traditional Culinary activities?
+user: I'm open to anything.","attractions = search_attractions(state=""CO"", type=[""Culinary""])
+save_to_cache(key=""attractions"", value=attractions)"," ""SearchResultsOutputModel(search_results=[{'Unnamed: 0': 209, 'city': 'Denver','state': 'CO', 'attraction_name': 'The Denver Central', 'type': 'Culinary', 'latitude': 39.7392, 'longitude': -104.9849, 'neighborhood': 'LoDo',], query_summary='Attraction search results in CO. attraction type(s): [Culinary].\nThere are 1 attractions"
+65,"assistant: Hi there! How can I assist you? Are you looking for something local or international?
+user: I'm looking for some Touristy attractions in Las Vegas.
+assistant: We have a lot of great Touristy spots in Las Vegas. Are you interested in anything specific?
+user: Not really
+assistant: Okay, let me give you some recommendations. Have you considered Summerlin?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Las Vegas"", type=[""Touristy""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+neighborhood_attractions = filter_attractions(prior_results=get_results_from_cache(key=""attractions""), neighborhood=[""Summerlin""])
+save_to_cache(key=""neighborhood_attractions"", value=neighborhood_attractions)"," 'neighborhood': 'Summerlin', {'assistant':'We have a lot of great Touristy spots in Las Vegas. Are you interested in anything specific?'}, {'assistant':'Not really', {'assistant':'I'm looking for some Touristy spots in Las Vegas. Are you interested in anything specific?'}, {'assistant':'Not really', {'assistant':'I'm looking for some Touristy spots in Las Vegas. Are you interested in anything specific?'}, {'assistant':'Not"
+68,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Cultural attractions in Lexington.
+assistant: Lexington has a lot of great Cultural spots. Have you considered Downtown Lexington?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Cultural attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Lexington"", type=[""Cultural""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Lexington""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")"," 'Hello! Are you looking for something to do in your free time?'}, {'assistant':'Hello! Are you looking for something to do in your free time?'}, {'assistant':'What's there?'}, {'assistant':'It's a great area with a lot of Cultural attractions. I can give you some recommendations.'}, {'assistant':'Hello! Are you looking for something to do in your free time?'}, {'assistant':'What's there?'}, {'assistant': '"
+69,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Art attractions in Tucson.
+assistant: Tucson has a lot of great Art spots. Have you considered Downtown Tucson?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Art attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Tucson"", type=[""Art""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Tucson""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")","'search_results in Tucson. attraction type(s): [Art].', 'filtered_attractions': SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in Tucson. attraction type(s): [Art].', 'filtered_attractions': SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in Tucson. attraction type(s): [Art].', 'filtered_attractions': SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in Tucson. attraction type(s):"
+7,"assistant: Hello! How can I assist you?
+user: I'm planning a trip to CO and I want to find some Scenic attractions.
+assistant: CO has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible. Give me anything
+assistant: There are several. Let me see what I can find for you.
+user: Great, thanks!","attractions = search_attractions(state=""CO"", type=[""Scenic""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")"," 'The attraction type is a Scenic, and the provided search results. The last turn in the conversation is from the user. 
+
+# CONVERSATION
+[{'user': 'I'm planning a trip to CO and I want to find some Scenic attractions.'}, {'assistant':'Hello! How can I assist you?'}, {'assistant':'There are several. Let me see what I can find for you.'}, {'assistant':'I'm planning a trip to CO and I"
+71,"assistant: Hi there! How can I assist you?
+user: I'm looking for some Sporting attractions in Las Vegas.
+assistant: We have a lot of great Sporting spots in Las Vegas. Are you interested in anything specific?
+user: Not really, just something fun.
+assistant: Okay, let me give you some recommendations. Have you considered Summerlin?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Las Vegas"", type=[""Sporting""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Summerlin""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," 'filtered_attractions': SearchResultsOutputModel(search_results=[{'Unnamed: 0': 276, 'city': 'Las Vegas','state': 'NV', 'attraction_name': 'T Arena', 'type': 'Cultural', 'latitude': 36.10277778, 'longitude': -115.17833333, 'neighborhood': 'Summerlin',}, {'Unnamed: 0': 277, 'city': 'Las Vegas','state': 'NV"
+72,"assistant: Hello! What brings you here today?
+user: I'm planning a trip to CA and I want to find some Art and Sporting attractions.
+assistant: CA has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible.
+assistant: Anything else I can help you with
+user: No, Thanks","attractions = search_attractions(state=""CA"", type=[""Art"", ""Sporting""])
+save_to_cache(key=""attractions"", value=attractions)"," ""Here are the attractions in CA that match the search results. Here are the attraction types: [Art, Sporting].""
+```
+user: ""What are the attractions in CA that match the search results?""
+assistant: ""Here are the attractions in CA that match the search results. Here are the attraction types: [Art, Sporting].""
+```
+assistant: ""Here are the attractions in CA that match the search results. Here are the attraction types: [Art, Sporting].""
+```"
+73,"assistant: Hi there! How can I assist you?
+user: I'm looking for some Art attractions in Fresno.
+assistant: We have a lot of great Art spots in Fresno. Are you interested in anything specific?
+user: Not really, just something fun.
+assistant: Okay, let me give you some recommendations. Have you considered Tower District?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Fresno"", type=[""Art""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Tower District""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)","'search_results':'search_results', 'attraction': 'Fresno Art Museum', 'type': 'Art', 'latitude': 36.7708, 'longitude': -119.7739, 'neighborhood': 'Woodward Park',]}], query_summary='Attraction search results in Fresno. attraction type(s): [Art].\nThere are 1 attractions that matched this query!'), 'filtered_attractions': SearchResultsOutputModel(search_results=[], query_summary='Attr"
+77,"assistant: Hello! What brings you here today? Are you looking for a quick weekend getaway or a longer vacation?
+user: I'm planning a trip to CA and I want to find some Touristy attractions.
+assistant: CA has a lot to offer. Are you looking at a specific city or region?
+user: Not really, I'm flexible. What are some popular Touristy spots in CA?
+assistant: There are several. Let me see what I can find for you.
+user: Great, thanks!","attractions = search_attractions(state=""CA"", type=[""Touristy""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")"," ""The search results are from the user based on the conversation between the user and the assistant, as well as the provided search results. The last turn in the conversation is from the user. 
+user: ""I'm looking for a quick weekend getaway or a longer vacation?'}, {'assistant':'I'm planning a trip to CA and I want to find some Tourist attractions.'}, {'assistant':'Are you looking for a quick weekend getaway or a longer vacation?'}, {'assistant': '"
+79,"assistant: Hi there! How can I assist you? Are you looking for something historic or modern?
+user: I'm looking for some Art attractions in Fresno.
+assistant: We have a lot of great Art spots in Fresno. Are you interested in anything specific?
+user: Not really
+assistant: Okay, let me give you some recommendations. Have you considered Tower District?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Fresno"", type=[""Art""])
+save_to_cache(key=""attractions"", value=attractions)
+neighborhood_attractions = filter_attractions(prior_results=get_results_from_cache(key=""attractions""), neighborhood=[""Tower District""])
+save_to_cache(key=""neighborhood_attractions"", value=neighborhood_attractions)"," 'attraction search results in Fresno. attraction type(s): [Art].\nThere are 1 attractions that matched this query!'), 'neighborhood_attractions': SearchResultsOutputModel(search_results=[{'Unnamed: 0': 355, 'city': 'Fresno','state': 'CA', 'attraction_name': 'Fresno Art Museum', 'type': 'Art', 'latitude': 36.7708, 'longitude': -119.7739,"
+80,"assistant: Hi there! How can I assist you? Are you looking for something local or international?
+user: I'm looking for some Touristy attractions in Colorado Springs.
+assistant: We have a lot of great Touristy spots in Colorado Springs. Are you interested in anything specific?
+user: Not really
+assistant: Okay, let me give you some recommendations. Have you considered Old Colorado City?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Colorado Springs"", type=[""Touristy""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+neighborhood_attractions = filter_attractions(prior_results=get_results_from_cache(key=""attractions""), neighborhood=[""Old Colorado City""])
+save_to_cache(key=""neighborhood_attractions"", value=neighborhood_attractions)"," 'SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in Colorado Springs. attraction type(s): [Touristy].\n\nAdditionally filtering for neighborhood(s): [Old Colorado City].')}
+
+assistant: 'SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in Colorado Springs. attraction type(s): [Touristy].\n\nAdditionally filtering for neighborhood(s): [Old Colorado City].')}
+
+assistant: 'SearchResultsOutputModel(search_results=[], query_summary"
+81,"assistant: Hi, how can I help you today? Are you looking for a short or long trip?
+user: I'm looking for Social attractions in NV.
+assistant: NV has a rich history and culture. What specific type of Social attractions are you interested in?
+user: I'm not sure, just give me all for now
+assistant: Okay, let me see what I can find for you. Are you open to visiting different cities in NV?
+user: Yes, I am. Infact, I am thinking of going to Las Vegas for sure.","attractions = search_attractions(type=[""Social""], state=""NV"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, city=""Las Vegas"")
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," 'filtered_attractions': SearchResultsOutputModel(search_results=[{'Unnamed: 0': 269, 'city': 'Las Vegas','state': 'NV', 'attraction_name': 'Fremont Street Experience', 'type': 'Social', 'latitude': 36.17083333, 'longitude': -115.14416667, 'neighborhood': 'Summerlin', }, {'Unnamed: 0': 655, 'city': 'Henderson','state"
+83,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Touristy attractions in Raleigh.
+assistant: Raleigh has a lot of great Touristy spots. Have you considered Downtown Raleigh?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Touristy attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Raleigh"", type=[""Touristy""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Raleigh""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")","'Hello, I'm a tourist. What's there?'}, {'assistant':'Raleigh has a lot of Sporting attractions. I can give you some recommendations.'}, {'assistant':'Raleigh has a lot of Sporting attractions. I can give you some recommendations.'}, {'assistant':'Raleigh has a lot of Sporting attractions. I can give you some recommendations.'}, {'assistant':'Raleigh has a lot of Sporting attractions. I can give you some recommendations.'}, {'assistant':"
+85,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Historical attractions in St. Louis.
+assistant: St. Louis has a lot of great Historical spots. Have you considered Downtown St. Louis?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Historical attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""St. Louis"", type=[""Historical""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown St. Louis""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+attractions = get_results_from_cache(key=""attractions"")"," ""Hello! Are you looking for something to do in your free time?'}, {'assistant':'St. Louis has a lot of great Historical spots. Have you considered Downtown St. Louis?'}, {'assistant':'It's a great area with a lot of Historical attractions. I can give you some recommendations.""}, {'assistant': "" Yeah, I'm of course visiting some Historical attractions in St. Louis. attraction type(s): [Historical].\nThere are 1 attractions that matched"
+88,"assistant: Hi there! How can I assist you?
+user: I'm looking for some Scenic attractions in Atlanta.
+assistant: We have a lot of great Scenic spots in Atlanta. Are you interested in anything specific?
+user: Not really, just something fun.
+assistant: Okay, let me give you some recommendations. Have you considered Buckhead?
+user: No, I haven't. What's there?","attractions = search_attractions(city=""Atlanta"", type=[""Scenic""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Buckhead""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in Atlanta. attraction type(s): [Social].\n\nAdditionally filtering for neighborhood(s): [Buckhead].')}
+
+assistant: SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in Atlanta. attraction type(s): [Social].\n\nAdditionally filtering for neighborhood(s): [Buckhead].')}
+
+assistant: SearchResultsOutputModel(search_results=[], query_summary='Attraction search results"
+9,"assistant: Hello! Are you looking for something to do in your free time?
+user: Yeah, I'm thinking of visiting some Cultural attractions in San Jose.
+assistant: San Jose has a lot of great Cultural spots. Have you considered Downtown San Jose?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Cultural attractions. I can give you some recommendations.
+user: Okay, that sounds good.","attractions = search_attractions(city=""San Jose"", type=[""Cultural""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown San Jose""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)
+filtered_attractions = get_results_from_cache(key=""filtered_attractions"")","'search_results', 'type': 'SearchResultsOutputModel(search_results=[{'Unnamed: 0': 140, 'city': 'San Jose','state': 'CA', 'attraction_name': 'Japanese American Museum of San Jose', 'type': 'Historical', 'latitude': 37.34754, 'longitude': -121.89347, 'neighborhood': 'Downtown San Jose'}], query_summary='Attraction search results in San Jose. attraction type(s"
+91,"assistant: Hello! What kind of attractions are you looking for? Are you interested in history, art, or something else?
+user: I'm interested in Historical and Culinary attractions in TX.
+assistant: TX has a lot to offer. Are you looking at specific cities or regions?
+user: Yeah, I'm thinking of visiting Fresno and Anchorage.
+assistant: Both Fresno and Anchorage have great Historical and Culinary attractions. Let me tell you about some of them.
+user: That sounds great.","attractions = search_attractions(type=[""Historical"", ""Culinary""], state=""TX"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions1 = filter_attractions(prior_results=attractions, city=""Fresno"")
+filtered_attractions2 = filter_attractions(prior_results=attractions, city=""Anchorage"")
+save_to_cache(key=""filtered_attractions1"", value=filtered_attractions1)
+save_to_cache(key=""filtered_attractions2"", value=filtered_attractions2)
+filtered_attractions1 = get_results_from_cache(key=""filtered_attractions1"")
+filtered_attractions2 = get_results_from_cache(key=""filtered_attractions2"")"," 'The search results are in Texas.'}, 'filtered_attractions1': SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in TX. attraction type(s): [Historical, Culinary].\n\nAdditionally filtering for city: Anchorage.'), 'filtered_attractions2': SearchResultsOutputModel(search_results=[], query_summary='Attraction search results in TX. attraction type(s): [Historical, Culinary].\n\nAdditionally filtering for city: Anchorage.'"
+93,"assistant: Hello! Are you looking for a unique experience? I can help you find some hidden gems in Lexington.
+user: Yeah, I'm thinking of visiting some Culinary attractions in Lexington.
+assistant: Lexington has a lot of great Culinary spots. Have you considered Downtown Lexington?
+user: Actually, I haven't. What's there?
+assistant: It's a great area with a lot of Culinary attractions. I can give you some insider tips.
+user: Okay, that sounds good.","attractions = search_attractions(city=""Lexington"", type=[""Culinary""])
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, neighborhood=[""Downtown Lexington""])
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," 'Lexington, I'm thinking of visiting some Culinary attractions in. I can give you some insider information.'}, {'assistant':'What's there?'}, {'assistant':'It's a great area with a lot of Culinary attractions. I can give you some insider information.'}, {'assistant':'What's there?'}, {'assistant':'It's a great area with a lot of Culinary attractions. I can give you some insider information.'}, {'assistant':'What's"
+96,"assistant: Hi, how can I help you today? Are you looking for a short or long trip?
+user: I'm looking for Scenic attractions in TX.
+assistant: TX has a rich history and culture. What specific type of Scenic attractions are you interested in?
+user: I'm not sure, just give me all for now
+assistant: Okay, let me see what I can find for you. Are you open to visiting different cities in TX?
+user: Yes, I am. Infact, I am thinking of going to San Antonio for sure.","attractions = search_attractions(type=[""Scenic""], state=""TX"")
+save_to_cache(key=""attractions"", value=attractions)
+attractions = get_results_from_cache(key=""attractions"")
+attractions = get_results_from_cache(key=""attractions"")
+filtered_attractions = filter_attractions(prior_results=attractions, city=""San Antonio"")
+save_to_cache(key=""filtered_attractions"", value=filtered_attractions)"," 
+Your query is to recommend several attractions to the user based on the conversation between the user and the assistant, as well as the provided search results. The last turn in the conversation is from the user.
+
+# ATTRIBUTES
+{'attractions': [
+    {'attraction_name': 'River Walk', 'type': 'Scenic', 'latitude': 40.73333333, 'longitude': -73.97305556, 'neighborhood': 'Alamo Heights'},
+    {'attraction"

@@ -1,0 +1,7 @@
+gen_method_type: dropmin
+gen_params:
+  class_df_fp: orig_data/acp/classification.csv
+  min_class_name: domain
+  drop_n_min: 1
+  drop_per_class_frac: 0.3
+  seed: 123

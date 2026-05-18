@@ -1,0 +1,27 @@
+benchmark_type: t1_attraction
+filepaths:
+  - orig_data/t1/attraction_train/output_file_attraction_train_1.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_2.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_3.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_4.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_5.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_6.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_7.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_8.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_9.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_10.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_11.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_12.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_13.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_14.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_15.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_16.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_17.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_18.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_19.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_20.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_21.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_22.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_23.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_24.csv
+  - orig_data/t1/attraction_train/output_file_attraction_train_25.csv

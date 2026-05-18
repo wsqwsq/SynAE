@@ -1,0 +1,8 @@
+model_provider: nvidiabuild
+model_id: nvidia/nvidia-nemotron-nano-9b-v2
+model_alias: nemotron-nano-v2
+system_prompt: /no_think
+temperature: 0.6
+top_p: 0.95
+max_tokens: 1024
+timeout: 60

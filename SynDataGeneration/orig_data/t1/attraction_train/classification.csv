@@ -1,0 +1,226 @@
+ID,Type,City,State
+0,Guided,,CO
+1,Art,Memphis,GA
+2,Culinary,,OR
+3,Art,St. Louis,
+4,Historical,St. Louis,
+5,Scenic,San Jose,
+6,Cultural,Lexington,KY
+7,Scenic,,CO
+8,Culinary,San Jose,
+9,Cultural,San Jose,
+10,Scenic,St. Louis,
+11,Guided,Atlanta,
+12,Touristy,,AZ
+13,Cultural,Portland,
+14,Scenic,Las Vegas,GA
+15,Social,,OR
+16,Historical,Atlanta,OR
+17,Social,,NC
+18,Cultural,Memphis,
+19,Sporting,Colorado Springs,
+20,Social,Las Vegas,
+21,Art,Las Vegas,NV
+22,Culinary,,GA
+23,Cultural,Anchorage,
+24,Scenic,San Antonio,
+25,Guided,San Antonio,
+26,Social,Colorado Springs,
+27,Social,,GA
+28,Historical,Memphis,
+29,Sporting,Tucson,MO
+30,Sporting,,NC
+31,Art,San Antonio,AZ
+32,Social,,NV
+33,Cultural,Las Vegas,
+34,Guided,Atlanta,
+35,Sporting,Anchorage,
+36,Culinary,Lexington,KY
+37,Scenic,,MO
+38,Guided,Anchorage,
+39,Culinary,Memphis,
+40,Guided,Las Vegas,
+41,Scenic,Tucson,
+42,Touristy,,CA
+43,Historical,Atlanta,
+44,Culinary,Portland,GA
+45,Cultural,,GA
+46,Social,Memphis,GA
+47,Sporting,,AZ
+48,Art,Colorado Springs,
+49,Scenic,Portland,
+50,Cultural,Lexington,
+51,Sporting,Atlanta,GA
+52,Touristy,,TX
+53,Social,Lexington,
+54,Historical,Atlanta,
+55,Art,Las Vegas,
+56,Art,San Antonio,
+57,Touristy,,OR
+58,Historical,Tucson,
+59,Historical,Memphis,NV
+60,Culinary,,CO
+61,Historical,Tucson,KY
+62,Scenic,,CA
+63,Culinary,Atlanta,
+64,Art,Anchorage,
+65,Touristy,Las Vegas,
+66,Social,San Jose,CA
+67,Art,,TN
+68,Cultural,Lexington,
+69,Art,Tucson,
+70,Scenic,Anchorage,
+71,Sporting,Las Vegas,
+72,Art,,CA
+73,Art,Fresno,
+74,Historical,Raleigh,AK
+75,Guided,,CO
+76,Touristy,San Antonio,OR
+77,Touristy,,CA
+78,Sporting,Anchorage,
+79,Art,Fresno,
+80,Touristy,Colorado Springs,
+81,Social,Las Vegas,NV
+82,Touristy,,NC
+83,Touristy,Raleigh,
+84,Sporting,Atlanta,
+85,Historical,St. Louis,
+86,Guided,Anchorage,
+87,Art,,KY
+88,Scenic,Atlanta,
+89,Cultural,Raleigh,CA
+90,Scenic,,NV
+91,Historical,Fresno,TX
+92,Sporting,,NV
+93,Culinary,Lexington,
+94,Guided,Tucson,
+95,Historical,Memphis,
+96,Scenic,San Antonio,TX
+97,Scenic,,CO
+98,Social,Las Vegas,
+99,Historical,Colorado Springs,
+100,Touristy,Colorado Springs,
+101,Culinary,Portland,
+102,Social,,CA
+103,Culinary,Portland,
+104,Scenic,St. Louis,AZ
+105,Scenic,,CA
+106,Touristy,Tucson,NC
+107,Touristy,,CA
+108,Historical,San Antonio,
+109,Cultural,Colorado Springs,
+110,Culinary,Fresno,
+111,Guided,San Antonio,TX
+112,Art,,TN
+113,Culinary,Colorado Springs,
+114,Culinary,Lexington,
+115,Scenic,Lexington,
+116,Culinary,San Antonio,
+117,Art,,MO
+118,Sporting,Anchorage,
+119,Art,Fresno,CO
+120,Social,,NV
+121,Art,Atlanta,TX
+122,Guided,,OR
+123,Culinary,San Jose,
+124,Scenic,Portland,
+125,Social,Colorado Springs,
+126,Sporting,St. Louis,MO
+127,Guided,,KY
+128,Historical,Atlanta,
+129,Guided,St. Louis,
+130,Scenic,Fresno,
+131,Touristy,Memphis,
+132,Social,,NV
+133,Art,Colorado Springs,
+134,Art,St. Louis,AZ
+135,Culinary,,NC
+136,Culinary,Las Vegas,CO
+137,Art,,NV
+138,Historical,Raleigh,
+139,Scenic,Las Vegas,
+140,Art,Las Vegas,
+141,Art,St. Louis,MO
+142,Scenic,,CA
+143,Art,Tucson,
+144,Historical,Memphis,
+145,Scenic,Fresno,
+146,Culinary,Portland,
+147,Historical,,CA
+148,Touristy,Atlanta,
+149,Cultural,Anchorage,OR
+150,Sporting,,CA
+151,Art,Atlanta,KY
+152,Touristy,,NV
+153,Social,Raleigh,
+154,Culinary,Lexington,
+155,Cultural,Atlanta,
+156,Social,Portland,OR
+157,Social,,GA
+158,Touristy,St. Louis,
+159,Guided,Tucson,
+160,Touristy,Atlanta,
+161,Sporting,Las Vegas,
+162,Art,,TX
+163,Social,Tucson,
+164,Guided,St. Louis,NV
+165,Scenic,,CA
+166,Historical,Raleigh,TX
+167,Touristy,,GA
+168,Sporting,Portland,
+169,Scenic,Anchorage,
+170,Social,Las Vegas,
+171,Cultural,St. Louis,MO
+172,Touristy,,CA
+173,Scenic,Atlanta,
+174,Guided,Portland,
+175,Historical,Colorado Springs,
+176,Sporting,Lexington,
+177,Art,,TN
+178,Culinary,Fresno,
+179,Cultural,Atlanta,TN
+180,Guided,,AZ
+181,Cultural,Memphis,TX
+182,Social,,CA
+183,Historical,Atlanta,
+184,Historical,Portland,
+185,Sporting,San Jose,
+186,Scenic,San Jose,CA
+187,Touristy,,MO
+188,Scenic,Lexington,
+189,Sporting,San Antonio,
+190,Social,Lexington,
+191,Sporting,Fresno,
+192,Historical,,GA
+193,Touristy,Las Vegas,
+194,Cultural,Atlanta,CA
+195,Art,,GA
+196,Historical,Portland,AZ
+197,Scenic,,AK
+198,Guided,Tucson,
+199,Sporting,Fresno,
+200,Touristy,San Jose,
+201,Culinary,Anchorage,AK
+202,Touristy,,GA
+203,Social,San Jose,
+204,Cultural,St. Louis,
+205,Cultural,Lexington,
+206,Guided,Atlanta,
+207,Scenic,,TX
+208,Cultural,Las Vegas,
+209,Culinary,San Jose,CO
+210,Scenic,,CO
+211,Art,San Jose,TX
+212,Scenic,,NC
+213,Touristy,San Jose,
+214,Touristy,Memphis,
+215,Touristy,Colorado Springs,
+216,Social,Anchorage,AK
+217,Culinary,,KY
+218,Social,Memphis,
+219,Art,Anchorage,
+220,Sporting,San Jose,
+221,Culinary,Fresno,
+222,Touristy,,CA
+223,Scenic,Portland,
+224,Cultural,Fresno,CO

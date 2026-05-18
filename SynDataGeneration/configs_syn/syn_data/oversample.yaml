@@ -1,0 +1,7 @@
+gen_method_type: oversample
+gen_params:
+  dup_sample_idxs:
+    - 0
+  dup_frac: 0.5
+  with_replacement: true
+  seed: 123

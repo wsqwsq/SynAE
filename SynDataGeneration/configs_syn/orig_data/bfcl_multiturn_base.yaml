@@ -1,0 +1,3 @@
+benchmark_type: bfcl_multiturn_base
+filepaths:
+  - orig_data/bfcl/multiturn_base/BFCL_v4_multi_turn_base_instr.json

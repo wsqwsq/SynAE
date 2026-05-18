@@ -1,0 +1,3 @@
+benchmark_type: t1_attraction
+filepaths:
+  - orig_data/t1/attraction_train/output_file_attraction_train_1.csv

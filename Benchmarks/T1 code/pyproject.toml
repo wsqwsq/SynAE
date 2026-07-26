@@ -15,7 +15,8 @@ classifiers = [
 license = {text = "MIT"}
 dependencies = [
   "typer",
-  "transformers",
+  "transformers==4.57.6",
+  "tokenizers==0.22.2",
   "pydantic==2.10.6",
   "pandas",
   "jinja2",
@@ -25,7 +26,11 @@ dependencies = [
   "openai",
   "tqdm",
   "huggingface_hub",
-  "hf_transfer"
+  "hf_transfer",
+  "datasets",
+  "vllm==0.8.5",
+  "pyyaml",
+  "python-dotenv"
 ]
 requires-python = ">= 3.10"
 

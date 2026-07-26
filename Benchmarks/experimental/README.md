@@ -79,3 +79,20 @@ Deploy the NeMo Data Designer following https://docs.nvidia.com/nemo/microservic
    ```
    python combine_attempt3_base_aug.py --aug-inferred <path_to_inferred_aug.csv> --output syn_case_study/attempt3_<model_name>.csv
    ```
+
+### Attempt 4: APIGen-MT generation
+
+Uses [APIGen-MT](https://arxiv.org/pdf/2504.03601): a verified task blueprint (instruction, groundtruth tool calls, expected output) is generated and validated first, then a simulated human-agent conversation is collected against that blueprint.
+
+- No separate policy-rule checker (T1's attraction domain has no τ-bench-style policy engine, so those constraints are folded into the generator's prompt instead).
+- No Reverse Task Recombination (Attempts 1-3 all target single-topic ~6-turn conversations, so complex multi-step task composition is skipped).
+- Only the first successful trajectory per blueprint is kept (Section 3.2.2 keeps the union of all successful trials across up to 3 attempts); Attempt 4 targets an exact per-type sample quota matching Attempts 1-3, so extra successes would overshoot it.
+- The state-based trajectory check (Figure 9's `diff_patch`, "similar to `git diff`") is a DB-mutation concept from τ-bench's write APIs; T1's attraction tools are read-only, so `cache_matches_diff_patch` approximates it with a value-containment check rather than a literal state diff.
+
+Note: For generating Attempt 4 data, there are two more steps after running get_t1_case_study.py.
+
+1. Run T1 code's get_case_study_attempt4_blueprints.py to generate and validate task blueprints for the dropped attraction types (saved to syn_case_study/attempt4_blueprints.csv).
+2. Run T1 code's get_case_study_attempt4_tc_outputs.py to simulate human-agent trajectories against those blueprints (saved to syn_case_study/attempt4_aug_inferred.csv).
+3. Run combine_attempt4_base_aug.py to combine the Base dataset with the augmented dataset.
+
+All parameters are set in T1 code's apigen_mt_config.py (APIGenMTConfig). Pass `--config path/to/config.yaml` to override defaults, or `--backend openai` to switch from the default local vLLM backend to a hosted OpenAI model.

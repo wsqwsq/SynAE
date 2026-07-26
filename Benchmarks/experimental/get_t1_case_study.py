@@ -1,4 +1,5 @@
 import argparse
+import json
 import os
 import re
 from typing import Optional
@@ -171,6 +172,10 @@ if __name__ == "__main__":
     parser.add_argument(
         "--num-gpus", type=int, default=2, help="Number of GPUs for tensor parallelism"
     )
+    parser.add_argument(
+        "--dropped-info-only", action="store_true",
+        help="Only generate ideal.csv, base.csv, and dropped_info.json; skip attempt 1/2 generation",
+    )
     args = parser.parse_args()
 
     print(f"Loading data from {INPUT_FP}")
@@ -197,6 +202,17 @@ if __name__ == "__main__":
     base_output_fp = f"{OUTPUT_DIR}/base.csv"
     base_df.to_csv(base_output_fp, index=False)
     print(f"Saved base dataset ({len(base_df)} samples) to {base_output_fp}!")
+
+    # Persist dropped_info so later scripts (e.g. Attempt 4's APIGen-MT
+    # blueprint generation) can target the same missing types/counts
+    # without recomputing dropmin_gen's sampling independently.
+    dropped_info_fp = f"{OUTPUT_DIR}/dropped_info.json"
+    with open(dropped_info_fp, "w") as f:
+        json.dump(dropped_info, f)
+    print(f"Saved dropped_info to {dropped_info_fp}!")
+
+    if args.dropped_info_only:
+        exit()
 
     # Dataset 2: Attempt 1
     # Duplicate samples + relabel with missing attraction_types in the Data field
